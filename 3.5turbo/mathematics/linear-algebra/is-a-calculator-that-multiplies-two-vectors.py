@@ -1,6 +1,3 @@
-Sure! Here's a Python script that multiplies two vectors:
-
-```python
 import numpy as np
 
 def multiply_vectors():
@@ -25,6 +22,3 @@ def multiply_vectors():
 
 if __name__ == "__main__":
     multiply_vectors()
-```
-
-To run this script, save it as `task.py` and execute the command `python task.py` in the terminal. The script will prompt you to enter the two vectors, which should be space-separated values. It will then multiply the vectors element-wise using the `numpy` library and print the result. If the vectors are not of the same length, it will display an error message.

@@ -1,6 +1,3 @@
-Sure! Here's a python script that finds the length of a string in four different ways:
-
-```python
 # Method 1:
 def get_length_1(string):
     """
@@ -45,6 +42,3 @@ print("Method 1: Length is", get_length_1(example_string))
 print("Method 2: Length is", get_length_2(example_string))
 print("Method 3: Length is", get_length_3(example_string))
 print("Method 4: Length is", get_length_4(example_string))
-```
-
-Save the above code in a file named "task.py" and run it using the command "python task.py". It will ask you to enter a string, and then it will print the length of the string using four different methods.

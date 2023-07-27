@@ -1,6 +1,3 @@
-Sure! Here is a Python script that uses the NLTK library to determine the sentiment of a comment on IMDb:
-
-```python
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 
@@ -33,6 +30,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-```
-
-To run this script, save it as `task.py` and execute it using the command `python task.py`. The script will prompt you to enter a comment, and then it will determine the sentiment of the comment using the SentimentIntensityAnalyzer from the NLTK library. The sentiment will be outputted as either "Positive", "Negative", or "Neutral".

@@ -1,4 +1,3 @@
-```python
 import statistics
 
 # Get user input for list of numbers
@@ -15,4 +14,3 @@ distances = [abs(num - average) for num in numbers]
 for i, num in enumerate(numbers):
     distance = distances[i]
     print(f"The distance of {num} from the average is {distance}")
-```

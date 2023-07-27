@@ -1,6 +1,3 @@
-Certainly! Below is an example of a Python script that accepts a .stl file and displays its contents using the `numpy-stl` library:
-
-```python
 import numpy as np
 from stl import mesh
 from mpl_toolkits import mplot3d
@@ -35,6 +32,3 @@ if __name__ == '__main__':
 
     # Call the display_stl_file function
     display_stl_file(filename)
-```
-
-To run this script, save it in a file named `task.py` and use the command `python task.py` in the terminal. The script will prompt you to enter the path to the .stl file you want to display. After the path is provided, it will display the contents of the .stl file in a 3D plot.

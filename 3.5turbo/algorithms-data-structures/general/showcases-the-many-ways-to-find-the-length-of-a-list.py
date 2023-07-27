@@ -1,6 +1,3 @@
-Sure! Here's a Python script that demonstrates various ways to find the length of a list:
-
-```python
 # Method 1: Using the built-in len() function
 def method1(my_list):
     return len(my_list)
@@ -43,6 +40,3 @@ if __name__ == "__main__":
     print(f"Method 4: {method4(my_list)}")
     print(f"Method 5: {method5(my_list)}")
     print(f"Method 6: {method6(my_list)}")
-```
-
-Save this script in a file named `task.py`, and you can run it using the command `python task.py`. It will print the length of the list using each of the six methods described above.

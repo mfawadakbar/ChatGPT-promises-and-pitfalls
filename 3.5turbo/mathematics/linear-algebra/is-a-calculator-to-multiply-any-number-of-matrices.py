@@ -1,6 +1,3 @@
-Sure! Here's a Python script that multiplies any number of matrices using the NumPy library:
-
-```python
 import numpy as np
 
 def get_matrix_size(m):
@@ -48,10 +45,3 @@ if __name__ == "__main__":
     else:
         print("Result:")
         print(result)
-```
-
-To run the script, save it to a file named `task.py` and execute the command `python task.py`. The script will prompt you to enter the number of matrices, their sizes, and their elements. It will then multiply the matrices together and display the result.
-
-Please note that this script requires the NumPy library to be installed. You can install it by running `pip install numpy`.
-
-Let me know if you have any questions or need further assistance!

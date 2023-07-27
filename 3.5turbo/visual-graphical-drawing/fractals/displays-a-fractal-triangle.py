@@ -1,6 +1,3 @@
-Sure, here's a Python script that displays a Fractal Triangle using the turtle module:
-
-```python
 import turtle
 
 def draw_fractal(length, depth):
@@ -34,8 +31,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-To run the script, save it in a file called "fractal_triangle.py", then execute it by running the command "python fractal_triangle.py" in the terminal. The turtle graphics window will appear, and you will see the fractal triangle being drawn.
-
-You can adjust the `length` and `depth` variables in the `main` function to create different sizes and levels of detail for the fractal triangle. The turtle's speed is set to 0 to draw instantly, but you can modify it to a lower value if you want to see the drawing process.

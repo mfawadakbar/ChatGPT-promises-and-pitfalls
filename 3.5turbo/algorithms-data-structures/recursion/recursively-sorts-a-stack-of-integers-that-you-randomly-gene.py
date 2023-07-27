@@ -1,6 +1,3 @@
-Sure! Here's a python script that recursively sorts a stack of randomly generated integers using the merge sort algorithm:
-
-```python
 def merge_sort(stack):
     if len(stack) > 1:
         mid = len(stack) // 2
@@ -46,8 +43,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-To run this script, save it to a file named `task.py` and run the command `python task.py`. The script will generate a stack of 10 random integers, sort it recursively using the merge sort algorithm, and then print the original and sorted stacks.
-
-Note: The above script assumes that you have Python installed on your system.

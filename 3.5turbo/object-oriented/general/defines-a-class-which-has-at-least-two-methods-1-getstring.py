@@ -1,6 +1,3 @@
-Sure, here is the code for the requested class:
-
-```python
 class StringManipulator:
     def __init__(self):
         self.string = ""
@@ -21,6 +18,3 @@ if __name__ == "__main__":
 
     # Print the string in upper case
     stringManipulator.printString()
-```
-
-To run this code, save it in a file called "task.py". Open your command prompt or terminal, navigate to the folder where "task.py" is saved, and enter the command `python task.py`. The code will prompt you to enter a string, and then it will print that string in uppercase.

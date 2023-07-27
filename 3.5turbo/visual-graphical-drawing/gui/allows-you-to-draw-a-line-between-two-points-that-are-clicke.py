@@ -1,6 +1,3 @@
-Sure! Here's a Python script using the `tkinter` library that allows you to draw a line between two points clicked on the screen:
-
-```python
 import tkinter as tk
 
 def draw_line(event):
@@ -39,6 +36,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-Save this script as `line_drawer.py` and you can run it using the command `python line_drawer.py`. It will open a window where you can click on the canvas to draw a line between two consecutive points. The `Clear` button can be used to clear the canvas and start again.

@@ -1,6 +1,3 @@
-Sure! Here's an example of a Python script that generates a random weighted graph and uses Dijkstra's algorithm to find the shortest path:
-
-```python
 import random
 import sys
 from collections import defaultdict
@@ -66,6 +63,3 @@ if __name__ == "__main__":
     print("Shortest distances from node 0:")
     for node, distance in shortest_distances.items():
         print(f"Node {node}: {distance}")
-```
-
-Save this code in a file named "task.py" and run it using the command `python task.py`. The script generates a random weighted graph with a specified number of nodes and edges. Then, it uses Dijkstra's algorithm to find the shortest distances from a specified starting node. Finally, it prints the shortest distances for each node in the graph.

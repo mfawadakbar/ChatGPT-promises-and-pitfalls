@@ -1,6 +1,3 @@
-Here's a Python script that compares the areas of a square and a circle:
-
-```python
 import math
 
 def calculate_square_area(side_length):
@@ -31,6 +28,3 @@ if __name__ == "__main__":
     # Compare areas
     result = compare_areas(side_length, radius)
     print(result)
-```
-
-Save this script in a file named `task.py` and run it with the command `python task.py`. The script will ask the user to enter the side length of a square and the radius of a circle, and then compare the areas of the two shapes. The result will be displayed as output.

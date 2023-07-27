@@ -1,6 +1,3 @@
-Sure, here's a Python script that uses recursion to find the occurrences of a letter in a string:
-
-```python
 def count_occurrences(string, letter):
     # Base case: if the string is empty, return 0
     if len(string) == 0:
@@ -23,6 +20,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-To run the script, save it to a file named `task.py` and then execute it with the command `python task.py`.

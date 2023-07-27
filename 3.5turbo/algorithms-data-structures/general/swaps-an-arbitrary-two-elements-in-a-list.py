@@ -1,6 +1,3 @@
-Sure! Here's a Python script that swaps two arbitrary elements in a list:
-
-```python
 def swap_elements(lst, index1, index2):
     """
     Swaps the elements at index1 and index2 in the given list.
@@ -30,6 +27,3 @@ if __name__ == "__main__":
     else:
         swapped_list = swap_elements(my_list, index_1, index_2)
         print("List after swapping elements:", swapped_list)
-```
-
-To use this script, save it in a file named `task.py`, open your terminal, navigate to the directory where the file is saved, and run the command `python task.py`. The script will prompt you to enter the indices of the elements to swap in the list.

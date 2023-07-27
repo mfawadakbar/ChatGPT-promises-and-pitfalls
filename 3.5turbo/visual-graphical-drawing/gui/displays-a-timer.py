@@ -1,6 +1,3 @@
-Sure! Here's a Python script that displays a timer:
-
-```python
 import time
 
 def countdown(t):
@@ -22,6 +19,3 @@ if __name__ == '__main__':
 
     # Start the countdown timer
     countdown(total_time)
-```
-
-This script uses the `time` module to create a countdown timer. It asks the user for the duration of the timer in minutes and seconds, calculates the total time in seconds, and then starts the countdown. The timer is displayed in the format MM:SS and updates every second until the timer reaches zero.

@@ -1,6 +1,3 @@
-Sure! Here's a Python script that uses the turtle module to draw a simple panda:
-
-```python
 import turtle
 
 def draw_circle(x, y, radius, color):
@@ -65,6 +62,3 @@ def draw_panda():
 
 # Call the draw_panda() function to draw the panda
 draw_panda()
-```
-
-Save the code above in a file named `task.py` and run it using the command `python task.py`. The turtle graphics window will open, and a simple panda will be drawn on it.

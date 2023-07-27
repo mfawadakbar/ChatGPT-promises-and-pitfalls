@@ -1,6 +1,3 @@
-Sure! Here's a Python script that calculates the missing information of a triangle given its edge lengths and angles using the `math` library:
-
-```python
 import math
 
 def calculate_triangle():
@@ -46,6 +43,3 @@ def calculate_triangle():
 
 # Call the main function
 calculate_triangle()
-```
-
-Save the above code into a file called `task.py`, then you can run it using the command `python task.py`. The script will prompt the user for the edge lengths and angles of the triangle, and then it will calculate and display the missing information.

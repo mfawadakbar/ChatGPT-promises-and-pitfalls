@@ -1,6 +1,3 @@
-Sure! Here's the implementation of Conway's Game of Life in Python:
-
-```python
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.animation as animation
@@ -52,6 +49,3 @@ ani = animation.FuncAnimation(fig, update_grid, fargs=(grid, N, ),
 
 # Show the animation
 plt.show()
-```
-
-To run this script, save it in a file named `task.py` and execute `python task.py` in the terminal. The script will generate a random initial grid and simulate the Game of Life for the specified number of generations. The animation will be displayed using matplotlib.

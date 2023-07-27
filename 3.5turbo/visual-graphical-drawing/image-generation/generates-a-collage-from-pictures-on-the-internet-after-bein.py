@@ -1,6 +1,3 @@
-Sure! Here's an example of a Python script that generates a collage from pictures on the internet using the `google_images_download` library. 
-
-```python
 import os
 import requests
 from PIL import Image
@@ -67,12 +64,3 @@ def main():
 # Run the main function
 if __name__ == "__main__":
     main()
-```
-This script utilizes the `google_images_download` library to download images from Google search based on a given keyword. It then creates a collage by pasting the downloaded images onto a new blank image using the `PIL` library. The collage is saved as "collage.jpg".
-
-To run the script, you need to install the required libraries by running the following command in your terminal:
-```bash
-pip install google_images_download Pillow
-```
-
-After installing the libraries, save the script as "task.py" and run it using the command `python task.py`. The script will prompt you to enter a keyword for the image search. After entering the keyword, it will download 5 images and create a collage from them. The collage will be saved as "collage.jpg" in the same directory.

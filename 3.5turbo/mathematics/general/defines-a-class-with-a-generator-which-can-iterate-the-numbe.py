@@ -1,6 +1,3 @@
-Sure! Here is a Python script that defines a class with a generator to iterate the numbers divisible by 7:
-
-```python
 class DivisibleBySevenGenerator:
     def __init__(self, start=0, end=None):
         self.start = start
@@ -30,6 +27,3 @@ if __name__ == "__main__":
         if number > 100:
             break
         print(number)
-```
-
-To run the script, save it in a file called `task.py` and use the command `python task.py` in your terminal. It will print all the numbers divisible by 7 up to 100. You can modify the `start` and `end` parameters in the `DivisibleBySevenGenerator` constructor to generate numbers within a specific range, or leave them as default to generate an infinite sequence.

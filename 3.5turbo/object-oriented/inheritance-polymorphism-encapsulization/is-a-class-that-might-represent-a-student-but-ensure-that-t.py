@@ -1,4 +1,3 @@
-```python
 class Student:
     def __init__(self, name, age, grade):
         self.__name = name
@@ -26,6 +25,3 @@ print(student.get_grade())  # Output: A
 
 student.set_grade('B')
 print(student.get_grade())  # Output: B
-```
-
-This script defines a `Student` class with encapsulated attributes `name`, `age`, and `grade`. The `name` and `age` attributes are read-only and can be accessed using getter methods `get_name()` and `get_age()`. The `grade` attribute can be modified using the setter method `set_grade()`.

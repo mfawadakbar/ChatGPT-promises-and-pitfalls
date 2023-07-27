@@ -1,6 +1,3 @@
-Sure! Here's a Python script that determines if a word is an isogram:
-
-```python
 def is_isogram(word):
     # Convert the word to lowercase to eliminate case sensitivity
     word = word.lower()
@@ -28,6 +25,3 @@ if is_isogram(word):
     print(f"{word} is an isogram")
 else:
     print(f"{word} is not an isogram")
-```
-
-To run the script, save it in a file called `task.py` and run it using the command `python task.py`. The script will prompt the user to enter a word and will then check if that word is an isogram. It will output whether the word is an isogram or not.

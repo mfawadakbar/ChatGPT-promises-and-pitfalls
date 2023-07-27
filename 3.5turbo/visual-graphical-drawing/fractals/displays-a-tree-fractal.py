@@ -1,6 +1,3 @@
-Here's an example of a Python script that displays a Tree Fractal using the turtle module:
-
-```python
 import turtle
 
 def draw_tree(branch_len, angle):
@@ -48,6 +45,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-Save the script in a file named "task.py" and run it using the command `python task.py`. A turtle graphics window will open, and you will see a tree fractal being drawn.

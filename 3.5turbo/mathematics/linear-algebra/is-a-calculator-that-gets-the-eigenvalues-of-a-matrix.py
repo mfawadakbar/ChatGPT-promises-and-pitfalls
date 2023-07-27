@@ -1,6 +1,3 @@
-Sure! Here's a Python script that uses the NumPy library to calculate the eigenvalues of a matrix:
-
-```python
 import numpy as np
 
 def get_matrix_size():
@@ -31,8 +28,3 @@ if __name__ == '__main__':
     matrix = get_matrix_values(size)
     eigenvalues = calculate_eigenvalues(matrix)
     print("Eigenvalues:", eigenvalues)
-```
-
-To run the script, save it to a file like `matrix_eigenvalues_calculator.py` and execute it using the command `python matrix_eigenvalues_calculator.py`. The script will ask for the size of the matrix and the matrix values, and then it will display the calculated eigenvalues.
-
-Note: This script requires the NumPy library to be installed. You can install it using `pip install numpy`.

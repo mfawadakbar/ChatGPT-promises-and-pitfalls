@@ -1,6 +1,3 @@
-Sure! Here's the python script that recursively calculates the value of N factorial:
-
-```python
 def factorial_recursive(n):
     # Base case: if n is 0 or 1, return 1
     if n == 0 or n == 1:
@@ -18,6 +15,3 @@ if n < 0:
 else:
     result = factorial_recursive(n)
     print(f"The factorial of {n} is: {result}")
-```
-
-To run the script, save it in a file named `task.py` and execute the command `python task.py`. The script will prompt the user to enter a non-negative integer and calculate its factorial using recursion.

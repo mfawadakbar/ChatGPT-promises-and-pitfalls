@@ -1,6 +1,3 @@
-Sure, here's an example of a Python script that reads a csv file, extracts the specified headers, and displays a histogram using the matplotlib library:
-
-```python
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -26,14 +23,3 @@ if __name__ == "__main__":
 
     # Call the function to display the histogram
     display_histogram(csv_file, headers)
-```
-
-In this script, you'll need to replace `"data.csv"` with the path to your actual csv file, and update `["header1", "header2", "header3"]` with the actual headers you want to display the histogram for.
-
-You'll also need to make sure you have the pandas and matplotlib libraries installed. You can install them using pip:
-
-```
-pip install pandas matplotlib
-```
-
-Once you've saved the script to a file, you can run it using the command `python task.py`.

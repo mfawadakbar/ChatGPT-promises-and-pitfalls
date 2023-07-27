@@ -1,6 +1,3 @@
-Sure! Here's a Python script that reverses a random linked list:
-
-```python
 class Node:
     def __init__(self, data=None):
         self.data = data
@@ -47,8 +44,3 @@ head = reverse_linked_list(head)
 
 print("Reversed Linked List:")
 print_linked_list(head)
-```
-
-This script defines a `Node` class to represent each node in the linked list. The `reverse_linked_list` function reverses the linked list by iteratively swapping the `next` pointers of each node. The `print_linked_list` function is used to print the linked list for verification.
-
-To use the script, simply save it in a file named `task.py` and run it using the command `python task.py`.

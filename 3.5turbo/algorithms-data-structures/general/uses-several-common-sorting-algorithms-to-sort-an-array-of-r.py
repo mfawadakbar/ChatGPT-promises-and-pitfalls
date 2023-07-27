@@ -1,6 +1,3 @@
-Sure, here is a python script that implements several common sorting algorithms and compares their performance using randomly generated numbers:
-
-```python
 import random
 import time
 
@@ -107,6 +104,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-Save the above code into a file named `task.py` and run it using the command `python task.py`. It will generate a random array of numbers, sort it using different sorting algorithms (Bubble Sort, Insertion Sort, Merge Sort, and Quick Sort), and compare the execution time for each algorithm. It will also verify if the sorted array is correct.

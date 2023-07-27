@@ -1,6 +1,3 @@
-Here's an example of a Python script that randomly generates a small graph and determines if it is Hamiltonian:
-
-```python
 # Import necessary libraries
 import networkx as nx
 import random
@@ -25,8 +22,3 @@ is_ham = is_hamiltonian(graph)
 print("Generated Graph: ")
 print(nx.adjacency_matrix(graph))
 print("Is Hamiltonian: ", is_ham)
-```
-
-Note that this script uses the `networkx` library to generate and analyze the graph. You can install it by running `pip install networkx`. The `is_hamiltonian()` function checks if the graph has any Hamiltonian cycles using the `nx.hamiltonian_cycles()` function.
-
-Hope this helps! Let me know if you have any questions.

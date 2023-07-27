@@ -1,6 +1,3 @@
-Sure! Here is a Python script that compresses and decompresses a text file using the zlib library:
-
-```python
 import zlib
 
 def compress_file(file_path):
@@ -51,6 +48,3 @@ compress_file(file_path)
 
 # Decompress the file
 decompress_file(file_path + '.compressed')
-```
-
-To run this script, save it in a file named `task.py` and run `python task.py` in your command line. The script will prompt you to enter the path to the text file you want to compress. It will then compress the file using the zlib compression algorithm and save the compressed file with a `.compressed` extension. After that, it will decompress the same file and save the decompressed file without the `.compressed` extension.

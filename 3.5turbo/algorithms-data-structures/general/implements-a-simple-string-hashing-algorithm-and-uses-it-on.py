@@ -1,6 +1,3 @@
-Sure! Here's a Python script that implements a simple string hashing algorithm using the hashlib library:
-
-```python
 import hashlib
 
 def string_hash(string):
@@ -37,8 +34,3 @@ if __name__ == '__main__':
     
     # Print the hash result
     print("Hash result:", hash_result)
-```
-
-To run the script, save it in a file called `task.py` and execute it using the command `python task.py`. It will prompt you to enter a string, and then it will calculate and display the hash value of the input string using the SHA-256 algorithm.
-
-Note: If you want to use a different hashing algorithm, you can replace `hashlib.sha256()` with the appropriate hashlib algorithm object, such as `hashlib.md5()` for MD5 hashing.

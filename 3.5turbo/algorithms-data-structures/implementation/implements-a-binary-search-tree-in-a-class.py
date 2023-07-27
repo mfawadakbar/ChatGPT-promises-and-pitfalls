@@ -1,6 +1,3 @@
-Sure, here's an implementation of a binary search tree in Python:
-
-```python
 class Node:
     def __init__(self, data):
         self.data = data
@@ -99,8 +96,3 @@ print(result.data if result else "Value not found")
 print("Delete value 3:")
 bst.delete(3)
 bst.traverse_inorder()
-```
-
-This script defines a `Node` class to represent each node in the binary search tree, and a `BinarySearchTree` class to implement the tree operations. The `BinarySearchTree` class has methods to insert, search, delete, and traverse the tree using inorder traversal.
-
-To test the implementation, we create a binary search tree, insert some values, perform a search, and delete a value. Finally, we traverse the tree using inorder traversal to verify the integrity of the tree structure.

@@ -1,6 +1,3 @@
-Sure! Here's an example of a Python script that uses the Natural Language Toolkit (NLTK) library to determine the sentiment of an Amazon product review.
-
-```python
 import nltk
 from nltk.sentiment import SentimentIntensityAnalyzer
 
@@ -26,8 +23,3 @@ sentiment = get_review_sentiment(review)
 
 # Output the sentiment
 print(f"The sentiment of the review is: {sentiment}")
-```
-
-To run the script, save it to a file (e.g., `task.py`) and execute it using the command `python task.py` in your terminal. The script will prompt you to enter your Amazon product review, and it will then determine and display the sentiment of the review.
-
-Note: The script uses the VADER (Valence Aware Dictionary and sEntiment Reasoner) sentiment analysis tool from the NLTK library. It is a rule-based approach specifically designed for sentiment analysis of social media texts.

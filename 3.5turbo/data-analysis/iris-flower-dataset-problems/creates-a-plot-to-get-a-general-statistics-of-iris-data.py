@@ -1,6 +1,3 @@
-Sure! Here's a Python script that uses the `pandas` and `matplotlib` libraries to create a plot for the Iris dataset:
-
-```python
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -31,8 +28,3 @@ plt.xlabel('Features')
 plt.ylabel('Standard Deviation')
 plt.title('Standard Deviation of Iris Dataset Features')
 plt.show()
-```
-
-Please make sure to replace `'iris.csv'` with the actual file path or URL to the Iris dataset CSV file.
-
-Save this code to a file named `task.py` and run it using the command `python task.py`. It will generate two bar plots - one for the mean values of the features and another for the standard deviation values.

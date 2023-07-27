@@ -1,6 +1,3 @@
-Sure, here is a Python script using the matplotlib library to create a histogram to visualize the distribution of length and width for SepalLength, SepalWidth, PetalLength, and PetalWidth.
-
-```python
 import matplotlib.pyplot as plt
 import pandas as pd
 
@@ -39,8 +36,3 @@ plt.tight_layout()
 
 # Show the plot
 plt.show()
-```
-
-This script assumes that the Iris dataset is stored in a CSV file named 'iris.csv' in the same directory as the Python script. You can replace 'iris.csv' with the path to your Iris dataset file if it is stored in a different location.
-
-To run the script, save it to a file named `task.py` and run it using the command `python task.py`. The script will generate a graph that displays the distribution of the specified attributes.

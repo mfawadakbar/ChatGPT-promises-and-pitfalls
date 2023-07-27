@@ -1,6 +1,3 @@
-Certainly! Below is a python script that generates a specified number of random numbers and stores them in a file called "random_numbers.txt". The script uses the random module in Python to generate random numbers.
-
-```python
 import random
 
 def generate_random_numbers(num_of_numbers):
@@ -18,6 +15,3 @@ def generate_random_numbers(num_of_numbers):
 num_of_numbers = int(input("Enter the number of random numbers to generate: "))
 
 generate_random_numbers(num_of_numbers)
-```
-
-Simply save the above code in a file called "task.py" and execute it using the command `python task.py`. It will prompt the user to enter the number of random numbers to generate and store them in the "random_numbers.txt" file.

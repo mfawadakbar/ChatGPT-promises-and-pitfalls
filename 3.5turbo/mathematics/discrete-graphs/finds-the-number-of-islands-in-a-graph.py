@@ -1,6 +1,3 @@
-Sure! Here's a Python code snippet that finds the number of islands in a graph using Depth First Search (DFS) algorithm:
-
-```python
 def get_neighbors(matrix, rows, cols, i, j):
     # Define the possible directions to explore in the matrix
     directions = [(0, 1), (0, -1), (1, 0), (-1, 0)]
@@ -58,6 +55,3 @@ def count_islands(matrix):
 matrix = [[1, 1, 0, 0, 0], [0, 1, 0, 0, 1], [1, 0, 0, 1, 1], [0, 0, 0, 0, 0], [1, 0, 1, 0, 1]]
 island_count = count_islands(matrix)
 print("Number of islands:", island_count)
-```
-
-You can save this code to a file named `task.py` and run it using the command `python task.py`. It will output the number of islands in the given matrix.

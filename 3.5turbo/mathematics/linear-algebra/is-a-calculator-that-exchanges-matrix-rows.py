@@ -1,6 +1,3 @@
-Sure! Here's an example of a python script that exchanges matrix rows using the numpy library:
-
-```python
 import numpy as np
 
 def exchange_matrix_rows(matrix, row1, row2):
@@ -29,6 +26,3 @@ new_matrix = exchange_matrix_rows(matrix, row1, row2)
 
 print("\nMatrix after exchanging rows:")
 print(new_matrix)
-```
-
-To run this script, save it as `matrix_exchange.py` and execute it using `python matrix_exchange.py`. The script will ask for the indices of the two rows you want to exchange and display the matrix after the rows are exchanged.

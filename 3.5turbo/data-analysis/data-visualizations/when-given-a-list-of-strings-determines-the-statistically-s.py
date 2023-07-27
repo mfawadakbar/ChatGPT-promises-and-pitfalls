@@ -1,6 +1,3 @@
-Certainly! Please find below a Python script that determines the statistically significant strings based on their occurrence within a list:
-
-```python
 import collections
 
 def find_statistically_significant_strings(string_list):
@@ -32,8 +29,3 @@ if __name__ == '__main__':
     string_list = ["apple", "banana", "apple", "cherry", "banana", "banana"]
     significant_strings = find_statistically_significant_strings(string_list)
     print("Statistically significant strings:", significant_strings)
-```
-
-This script uses the `Counter` class from the `collections` module to count the occurrence of each string in the input list. It then calculates the occurrence probability of each string and the expected probability assuming a uniform distribution. It uses the chi-squared test to determine the statistical significance of each string based on their deviation from the expected probability.
-
-You can replace the `string_list` variable with your own list of strings, and the script will return the statistically significant strings.

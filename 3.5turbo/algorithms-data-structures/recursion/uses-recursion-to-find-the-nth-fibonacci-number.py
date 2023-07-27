@@ -1,6 +1,3 @@
-Sure! Here's a Python script that uses recursion to find the nth Fibonacci number:
-
-```python
 def fibonacci(n):
     """
     Recursive function to find the nth Fibonacci number
@@ -41,8 +38,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-Save this script in a file named `task.py`, and you can run it using the command `python task.py`. The script will ask you to enter the position of the Fibonacci number, and it will output the result.
-
-Note: The Fibonacci sequence starts with 1, so the first Fibonacci number is 1, the second is 1, the third is 2, and so on.

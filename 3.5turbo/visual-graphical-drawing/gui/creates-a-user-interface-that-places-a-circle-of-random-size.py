@@ -1,6 +1,3 @@
-Sure! You can use the `tkinter` library in Python to create a graphical user interface and handle mouse events. Here's an example code that meets your requirements:
-
-```python
 import tkinter as tk
 import random
 
@@ -33,6 +30,3 @@ canvas.bind("<Button-1>", create_circle)
 
 # Start the main event loop
 window.mainloop()
-```
-
-Save the above code in a file named `task.py`, then run `python task.py` to launch the program. When you click on the canvas, it will generate a circle of random size and color at the clicked location.

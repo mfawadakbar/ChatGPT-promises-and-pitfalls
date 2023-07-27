@@ -1,6 +1,3 @@
-Sure, here's a Python script that calculates the reduced row echelon form (rref) of a matrix using the `numpy` library:
-
-```python
 import numpy as np
 
 def get_matrix_from_user():
@@ -42,6 +39,3 @@ if __name__ == '__main__':
     rref_matrix = rref(matrix)
     print("The row reduced echelon form (rref) of the matrix is:")
     print(rref_matrix)
-```
-
-To run the script, save it in a file called `task.py` and execute the command `python task.py`. The script will prompt you to enter the dimensions and elements of the matrix, and then display the reduced row echelon form (rref) of the entered matrix.

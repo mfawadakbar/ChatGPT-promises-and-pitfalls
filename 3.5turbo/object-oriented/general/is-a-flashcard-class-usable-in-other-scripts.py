@@ -1,6 +1,3 @@
-Sure! Here's a Python script that defines a `Flashcard` class which can be used in other scripts as a flashcard:
-
-```python
 import random
 
 class Flashcard:
@@ -32,8 +29,3 @@ flashcards = [
 ]
 
 Flashcard.quiz_flashcards(flashcards)
-```
-
-You can add more flashcards to the `flashcards` list as needed. The `quiz_flashcards` method shuffles the flashcards and then asks the user the questions one by one, giving feedback on whether their answer is correct or not.
-
-To run this script, save it in a file named `task.py`, then run the command `python task.py` in your terminal.

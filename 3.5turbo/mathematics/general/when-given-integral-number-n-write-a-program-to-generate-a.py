@@ -1,6 +1,3 @@
-Sure! Here's a Python script that generates a dictionary based on an integral number `n`:
-
-```python
 def generate_dictionary(n):
     # Initialize an empty dictionary
     dictionary = {}
@@ -25,8 +22,3 @@ if __name__ == '__main__':
     
     # Print the dictionary
     print(result)
-```
-
-This script defines a function `generate_dictionary` that generates a dictionary according to the given criteria. It then prompts the user to enter an integral number `n`, generates the dictionary using the `generate_dictionary` function, and prints the resulting dictionary.
-
-To run the script, save it into a file named `task.py` and simply run `python task.py` in the command line.

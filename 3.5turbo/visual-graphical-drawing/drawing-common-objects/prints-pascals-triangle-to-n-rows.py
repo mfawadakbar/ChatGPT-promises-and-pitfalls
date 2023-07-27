@@ -1,6 +1,3 @@
-Sure! Here's a Python script that prints Pascal's triangle up to N rows:
-
-```python
 def print_pascals_triangle(n):
     triangle = [[1] * (i + 1) for i in range(n)]
     
@@ -20,6 +17,3 @@ if n < 1:
 else:
     # Print Pascal's triangle
     print_pascals_triangle(n)
-```
-
-To run the script, save it in a file named `task.py` and execute the command `python task.py`. It will prompt you to enter the number of rows for Pascal's triangle and then print the triangle.

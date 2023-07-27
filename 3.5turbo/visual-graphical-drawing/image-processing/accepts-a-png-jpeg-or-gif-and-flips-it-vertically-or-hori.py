@@ -1,6 +1,3 @@
-Certainly! Here's a Python script that accepts an image file in PNG, JPEG, or GIF format, and flips it vertically or horizontally based on user input.
-
-```python
 from PIL import Image
 
 def flip_image(image_path, flip_type):
@@ -26,6 +23,3 @@ flip_type = input("Enter the flip type (vertical/horizontal): ")
 
 # Flip the image and display the result
 print(flip_image(image_path, flip_type))
-```
-
-To run this script, save it in a file named `image_flip.py` and execute it using the command `python image_flip.py`. The script will prompt you to enter the path to the image file and the flip type (vertical or horizontal). After the image is flipped, it will be saved as `flipped_image.png` in the same directory.

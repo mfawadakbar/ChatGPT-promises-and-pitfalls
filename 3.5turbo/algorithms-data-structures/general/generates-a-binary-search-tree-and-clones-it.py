@@ -1,6 +1,3 @@
-Sure! Below is a Python script that generates a binary search tree and clones it:
-
-```python
 class Node:
     def __init__(self, value):
         self.value = value
@@ -75,6 +72,3 @@ if __name__ == "__main__":
     # Print the values in the cloned tree
     print("Cloned tree:")
     print_tree(cloned_bst.root)
-```
-
-When you run this script, it will generate a binary search tree and then clone it. Finally, it will print the values in the original tree and the cloned tree.

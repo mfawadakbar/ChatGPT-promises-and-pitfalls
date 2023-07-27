@@ -1,6 +1,3 @@
-Certainly! Here's a Python script that implements the Singleton pattern in a reusable manner:
-
-```python
 class Singleton(type):
     _instances = {}
 
@@ -25,6 +22,3 @@ if __name__ == "__main__":
     print(singleton1.data)  # Output: Hello
     print(singleton2.data)  # Output: Hello
     print(singleton1 is singleton2)  # Output: True
-```
-
-To run the script, open a terminal/command prompt in the same directory as the script file and execute the command `python task.py`.

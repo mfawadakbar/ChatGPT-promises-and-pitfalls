@@ -1,6 +1,3 @@
-Sure! Here's an example of a Python script that uses Matplotlib library to graph an array of tuples (x, y) on a cartesian coordinate plane:
-
-```python
 import matplotlib.pyplot as plt
 
 def plot_coordinates(coordinates):
@@ -27,8 +24,3 @@ def plot_coordinates(coordinates):
 # Test the function with sample coordinates
 coordinates = [(1, 2), (3, 4), (5, 6), (7, 8)]
 plot_coordinates(coordinates)
-```
-
-In this script, the `plot_coordinates` function takes an array of tuples as input. It uses the `zip` function to separate the tuples into separate lists of x and y values. Then, it creates a new figure and axis using `plt.subplots()`. The `scatter` function is used to plot the points on the cartesian coordinate plane. Additional labels and a title are added to the plot using the `set_xlabel`, `set_ylabel`, and `set_title` functions. Finally, the plot is displayed using `plt.show()`.
-
-To run this script, save it to a file named `task.py`, then execute the command `python task.py` in the terminal. The script will plot the sample coordinates provided in the example. Feel free to modify the coordinates array to plot your own set of points.

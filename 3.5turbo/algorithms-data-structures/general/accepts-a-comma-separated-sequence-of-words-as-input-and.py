@@ -1,6 +1,3 @@
-Here's the Python script that accepts a comma-separated sequence of words as input and performs some operations:
-
-```python
 def process_words(words):
     # Convert the comma-separated string into a list of words
     word_list = words.split(',')
@@ -27,6 +24,3 @@ if __name__ == "__main__":
     # Process the words and print the result
     processed_result = process_words(words_input)
     print("Processed result:", processed_result)
-```
-
-To run this script, save it to a file named `task.py` and then execute it using the command `python task.py`. The script will prompt you to enter a comma-separated sequence of words. After entering the words, the script will process them by removing leading/trailing whitespaces, converting them to uppercase, sorting them alphabetically, and then displaying the processed result.

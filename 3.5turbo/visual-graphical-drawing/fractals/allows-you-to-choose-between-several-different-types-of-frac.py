@@ -1,6 +1,3 @@
-Sure! Here's a python script that allows you to choose between several different types of fractals to display and choose the number of iterations to use:
-
-```python
 import turtle
 
 def draw_fractal(x, y, length, angle, iterations, fractal_type):
@@ -76,6 +73,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-To run the script, save it in a file with the name `task.py` and then execute the command `python task.py`. The script will prompt you to choose a fractal type (koch/tree/sierpinski) and enter the number of iterations. The turtle graphics window will open and display the generated fractal based on your inputs.

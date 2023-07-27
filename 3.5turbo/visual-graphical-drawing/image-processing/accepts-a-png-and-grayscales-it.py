@@ -1,6 +1,3 @@
-Here is a python script that accepts a png image and converts it to grayscale using the PIL library:
-
-```python
 from PIL import Image
 
 def grayscale_image(image_path):
@@ -21,6 +18,3 @@ if __name__ == "__main__":
     
     # Call the grayscale_image function with the provided image path
     grayscale_image(image_path)
-```
-
-Make sure to install the `Pillow` library by running `pip install pillow` before executing the script.

@@ -1,6 +1,3 @@
-Sure! Here's an example of a Python script that uses a "for" loop and a "while" loop to create an abstract design:
-
-```python
 import turtle
 
 # Create a turtle object
@@ -34,6 +31,3 @@ turtle_obj.hideturtle()
 
 # Exit on click
 turtle.done()
-```
-
-To run this script, save it in a file named `task.py` and run it using the command `python task.py`. The script will create a turtle graphics window and draw an abstract design consisting of polygons with increasing numbers of sides, each with a different color.

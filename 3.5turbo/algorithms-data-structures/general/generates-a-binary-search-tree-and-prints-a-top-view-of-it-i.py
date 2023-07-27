@@ -1,6 +1,3 @@
-Sure! Here's a Python script that generates a binary search tree and prints its top view.
-
-```python
 import queue
 
 
@@ -86,8 +83,3 @@ if __name__ == '__main__':
 
     # Print the top view of the binary search tree
     top_view(bst)
-```
-
-This script creates a binary search tree using the `Node` class and the `add_node` function. It then performs a level order traversal of the tree to determine the horizontal distance of each node from the root. The top view nodes are stored in a dictionary and printed in the correct order.
-
-To run the script, save it to a file named `task.py` and execute `python task.py` in the command line.

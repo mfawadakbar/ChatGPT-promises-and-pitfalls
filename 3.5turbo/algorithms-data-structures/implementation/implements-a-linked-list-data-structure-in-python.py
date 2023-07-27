@@ -1,6 +1,3 @@
-Sure, here's an implementation of a basic linked list data structure in Python:
-
-```python
 class Node:
     def __init__(self, data):
         self.data = data
@@ -81,6 +78,3 @@ if __name__ == "__main__":
 
     # Display nodes after deletion
     linked_list.display()  # Output: -1 1 2 3
-```
-
-You can save this code in a file with the name `linked_list.py` and run it using the command `python linked_list.py`.

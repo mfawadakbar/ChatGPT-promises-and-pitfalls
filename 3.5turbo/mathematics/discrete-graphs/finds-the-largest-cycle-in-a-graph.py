@@ -1,8 +1,3 @@
-Sure! Here's a Python script that finds the largest cycle in a graph. It uses the NetworkX library, which is a powerful tool for working with graphs.
-
-Make sure to install NetworkX by running `pip install networkx` before running the script.
-
-```python
 import networkx as nx
 
 def find_largest_cycle(graph):
@@ -35,8 +30,3 @@ if __name__ == '__main__':
     # Find the largest cycle
     largest_cycle = find_largest_cycle(graph)
     print("Largest Cycle:", largest_cycle)
-```
-
-This script first creates a graph using the NetworkX library. Then, it uses the `nx.simple_cycles` function to find all cycles in the graph. Finally, it iterates over these cycles and keeps track of the largest one found. The resulting largest cycle is printed as output.
-
-You can run this script by saving it in a file (e.g., `task.py`) and executing `python task.py` in the command line.

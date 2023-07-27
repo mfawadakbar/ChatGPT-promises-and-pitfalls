@@ -1,6 +1,3 @@
-Here is a Python script to recursively delete every node in a linked list:
-
-```python
 class Node:
     def __init__(self, data):
         self.data = data
@@ -43,8 +40,3 @@ if __name__ == "__main__":
 
     print("Linked List after deletion:")
     print_linked_list(linked_list)
-```
-
-This script defines a `Node` class to represent each node in the linked list. The `delete_linked_list` function takes a node as input and recursively deletes every node in the list by deleting the next node first and then the current node. The `create_linked_list` function is used to create a sample linked list, and the `print_linked_list` function is used to display the linked list before and after deletion.
-
-To run the script, save it in a file called "task.py" and execute the command "python task.py". It will print the original linked list and the linked list after deletion.

@@ -1,6 +1,3 @@
-Sure! Here's an example of a tic tac toe game in Python with a simple UI using the PyQt5 library:
-
-```python
 import sys
 from PyQt5.QtWidgets import QApplication, QWidget, QPushButton, QLabel, QVBoxLayout, QGridLayout
 from PyQt5.QtGui import QIcon
@@ -91,8 +88,3 @@ if __name__ == '__main__':
     app = QApplication(sys.argv)
     game = TicTacToe()
     sys.exit(app.exec_())
-```
-
-To run the script, save it in a file named `task.py`, and make sure you have the PyQt5 library installed (`pip install pyqt5`). You may also need to provide an image file named `icon.png` in the same directory for the window icon. Then, you can run the script from the command line using `python task.py`. 
-
-This script creates a simple tic tac toe game with a grid of buttons representing the game board. Players take turns clicking on the buttons to make their moves, and the script keeps track of the board state, updates the UI, and determines the winner or a draw.

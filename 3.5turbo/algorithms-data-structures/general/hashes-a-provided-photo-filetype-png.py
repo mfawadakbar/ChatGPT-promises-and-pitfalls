@@ -1,6 +1,3 @@
-Sure! Here is a Python script that hashes a provided PNG photo using the hashlib library:
-
-```python
 import hashlib
 
 def calculate_hash(file_path):
@@ -28,6 +25,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```
-
-You can save this script in a file named `task.py`, and then run it using the command `python task.py`. The script will prompt you to enter the file path of the PNG photo, and then it will calculate and display the hash value of the photo.

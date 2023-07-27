@@ -1,6 +1,3 @@
-Sure! Here's a Python script that uses the builder pattern to create a hamburger object:
-
-```python
 # Hamburger Builder
 
 class Cheese:
@@ -73,8 +70,3 @@ class HamburgerBuilder:
 builder = HamburgerBuilder()
 hamburger = builder.add_bun().add_beef().add_lettuce().add_tomato().add_cheese().get_hamburger()
 print("Hamburger Ingredients: ", hamburger)
-```
-
-This script defines several ingredient classes (Cheese, Bun, Lettuce, Beef, Chicken, Tomato) and a Hamburger class. The HamburgerBuilder class provides methods for adding different ingredients to the hamburger using the builder pattern. Finally, a Hamburger object is built using the builder and its ingredients are printed.
-
-To run the script, save it in a file named "task.py" and execute it using the command "python task.py".

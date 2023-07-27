@@ -1,4 +1,3 @@
-```python
 import random
 
 def generate_maze(rows, columns):
@@ -35,4 +34,3 @@ def generate_maze(rows, columns):
 maze = generate_maze(10, 10)
 for row in maze:
     print(row)
-```

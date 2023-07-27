@@ -1,6 +1,3 @@
-Sure! Here's a Python script that calculates the equation of a tangent line for a given equation at a specific point:
-
-```python
 import sympy as sp
 
 def tangent_line_equation():
@@ -32,6 +29,3 @@ def tangent_line_equation():
 if __name__ == "__main__":
     tangent_line = tangent_line_equation()
     print("Equation of the tangent line:", tangent_line)
-```
-
-This script uses the `sympy` library to parse the equation, differentiate it, and evaluate the slope and y-intercept. It prompts the user to enter the equation and the coordinates of the point, and then calculates and prints the equation of the tangent line.

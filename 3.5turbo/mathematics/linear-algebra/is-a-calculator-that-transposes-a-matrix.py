@@ -1,6 +1,3 @@
-Sure! Here's a Python script that transposes a matrix:
-
-```python
 import numpy as np
 
 def transpose_matrix():
@@ -28,6 +25,3 @@ def transpose_matrix():
 
 if __name__ == "__main__":
     transpose_matrix()
-```
-
-This script asks the user to enter the number of rows and columns in the matrix, and then takes input for each element of the matrix row by row. It uses the NumPy library to transpose the matrix and then prints the transposed matrix. The user can run the script by executing the command `python task.py`.

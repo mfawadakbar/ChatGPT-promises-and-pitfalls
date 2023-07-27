@@ -1,6 +1,3 @@
-Sure! Here's a python script for a calculator that calculates the area and volume of a cube, sphere, or cone:
-
-```python
 import math
 
 def cube():
@@ -47,5 +44,3 @@ def calculator():
 
 
 calculator()
-```
-To run this script, save it in a file with the name `task.py`. Open the terminal or command prompt, navigate to the directory where the script is saved, and run the command `python task.py`.

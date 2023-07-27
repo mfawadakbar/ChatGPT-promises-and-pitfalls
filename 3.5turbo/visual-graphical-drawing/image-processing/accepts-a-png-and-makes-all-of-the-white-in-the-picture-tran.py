@@ -1,6 +1,3 @@
-Here's a Python script that accepts a PNG image and makes all of the white pixels transparent. It uses the Pillow library to process the image.
-
-```python
 from PIL import Image
 
 def make_white_pixels_transparent(image_path):
@@ -34,6 +31,3 @@ if __name__ == "__main__":
 
     # Call the function to make white pixels transparent
     make_white_pixels_transparent(image_path)
-```
-
-To use this script, save the code into a file named `task.py`, and then run it with the command `python task.py`. The script will prompt you to enter the path to the PNG image you want to process. After running, it will create a new PNG file named `transparent_image.png` with all the white pixels made transparent.

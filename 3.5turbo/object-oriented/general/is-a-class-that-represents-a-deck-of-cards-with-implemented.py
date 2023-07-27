@@ -1,6 +1,3 @@
-Sure! Here's a Python script for a class representing a deck of cards with shuffle and draw methods:
-
-```python
 import random
 
 class Deck:
@@ -40,6 +37,3 @@ if __name__ == "__main__":
 
     print("\nRemaining cards in the deck:")
     print(deck.cards)
-```
-
-You can run this script by saving it to a file called "deck.py" and executing `python deck.py`. It will output the initial deck of cards, shuffle the deck, draw two cards, and show the remaining cards in the deck.

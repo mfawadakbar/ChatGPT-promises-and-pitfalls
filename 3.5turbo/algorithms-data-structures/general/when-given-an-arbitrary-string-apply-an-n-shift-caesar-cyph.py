@@ -1,6 +1,3 @@
-Sure! Here's a Python script that applies an N shift Caesar cipher to an arbitrary string:
-
-```python
 def caesar_cipher(text, shift):
     """
     Function to apply Caesar cipher to a given text with a given shift.
@@ -29,6 +26,3 @@ encrypted_text = caesar_cipher(text, shift)
 # Print the result
 print("Encrypted text:", encrypted_text)
 
-```
-
-To run this script, save it in a file named `caesar_cipher.py` and run `python caesar_cipher.py` in your command line.

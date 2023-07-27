@@ -1,6 +1,3 @@
-Sure! Here's a Python script that creates a matrix using lists and provides functionality to add and delete rows:
-
-```python
 class Matrix:
     def __init__(self):
         self.matrix = []  # Initialize an empty matrix
@@ -64,6 +61,3 @@ if __name__ == "__main__":
     else:
         print("\nMatrix (no changes):")
         matrix.display_matrix()
-```
-
-To run this script, save it in `task.py` and execute `python task.py` in the command prompt. You will be prompted to enter the number of rows and columns for the matrix, as well as the values for each element. After that, you can choose to add a new row, delete a row, or make no changes. The updated matrix will be displayed accordingly.

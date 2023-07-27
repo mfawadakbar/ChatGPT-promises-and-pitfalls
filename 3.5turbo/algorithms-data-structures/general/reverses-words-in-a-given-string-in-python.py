@@ -1,6 +1,3 @@
-Here is a python script that reverses the words in a given string:
-
-```python
 def reverse_words(string):
     # Split the string into a list of words
     words = string.split()
@@ -22,6 +19,3 @@ if __name__ == "__main__":
 
     # Print the reversed string
     print("Reversed string:", reversed_string)
-```
-
-To run this script, save it as "task.py" and execute the command "python task.py" in the command line. The script will ask you to enter a string, and then it will print the reversed string.

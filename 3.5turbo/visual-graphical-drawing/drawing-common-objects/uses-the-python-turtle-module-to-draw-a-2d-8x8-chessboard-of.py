@@ -1,4 +1,3 @@
-```python
 import turtle
 
 # Constants for the size of each square on the chessboard
@@ -44,6 +43,3 @@ def draw_chessboard():
 
 # Call the function to draw the chessboard
 draw_chessboard()
-```
-
-This script uses the turtle module to draw a 2D 8x8 chessboard with alternating black and white squares. It sets up the turtle, loops through each square on the chessboard, determines its position and color, and uses the turtle to draw the square. It then hides the turtle and keeps the turtle window open until it is closed.

@@ -1,6 +1,3 @@
-Sure, here's an implementation of the factory pattern that creates different types of animals with a `bark()` method:
-
-```python
 # Animal base class
 class Animal:
     def bark(self):
@@ -36,12 +33,3 @@ def main():
 # Run the main function
 if __name__ == "__main__":
     main()
-```
-
-To run the above code, create a file named `task.py` and copy the code into it. Then, run the following command in the terminal:
-
-```
-python task.py
-```
-
-The script will prompt you to enter the animal type (dog or cat). After entering the animal type, it will create the corresponding animal object using the factory and call the `bark()` method to print the animal's sound to the screen.
