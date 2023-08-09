@@ -13,6 +13,6 @@ def create_boxplot(data):
 
 if __name__ == '__main__':
     # Example input: array of integers
-    data = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+    data = np.array([1, 1, 1, 1, 1, 6, 7, 8, 9, 10])
 
     create_boxplot(data)
