@@ -26,7 +26,7 @@ def plot_ids_from_csv(csv_file):
     plt.show()
 
 # Provide the path to your CSV file
-csv_file = 'path_to_file.csv'
+csv_file = 'dataTimestamp.csv'
 
 # Call the function to plot the ids from the CSV file
 plot_ids_from_csv(csv_file)

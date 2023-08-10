@@ -23,7 +23,7 @@ for line in f:
     if(line.startswith("#### ")):
         subfolder = line[5:line.find("[http")]
 
-    if(line.startswith("- ")):
+    if(line.startswith("-x ")):
         prompt = line[2:line.find("[http")]
         chat_log = [{
             'role': 'system',
@@ -39,7 +39,7 @@ for line in f:
             '''
         }]
 
-        response = completion.create(model="gpt-3.5-turbo", messages=chat_log)
+        response = completion.create(model="gpt-4", messages=chat_log)
         answer = response.choices[0]['message']['content']
 
         path = slugify(folder) + '/' + slugify(subfolder)
@@ -47,7 +47,7 @@ for line in f:
         if not os.path.exists(folder + '/' + subfolder):
             os.makedirs(path, exist_ok=True)
         
-        new_f = open(path + '/' + slugify(prompt[:60]) + ".py", "a")
+        new_f = open('rerun/' + path + '/' + slugify(prompt[:60]) + ".py", "w")
         new_f.write(answer)
         responses += 1
         print(responses)

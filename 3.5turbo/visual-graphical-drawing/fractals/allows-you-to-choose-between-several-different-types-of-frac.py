@@ -62,7 +62,7 @@ def main():
     turtle.speed(0)  # Set the turtle speed to the fastest
     turtle.hideturtle()
     x = y = -200  # Initial position of the turtle
-    length = 400  # Length of the initial fractal line
+    length = 200  # Length of the initial fractal line
     angle = 60  # Angle for fractal patterns
     
     fractal_type = input("Choose a fractal type(koch/tree/sierpinski): ")

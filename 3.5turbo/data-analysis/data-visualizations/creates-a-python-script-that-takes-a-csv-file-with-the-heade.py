@@ -19,7 +19,7 @@ if __name__ == "__main__":
     csv_file = "data.csv"
 
     # Specify the headers for which the histogram is to be displayed
-    headers = ["header1", "header2", "header3"]
+    headers = ["Monthly Revenue"]
 
     # Call the function to display the histogram
     display_histogram(csv_file, headers)
