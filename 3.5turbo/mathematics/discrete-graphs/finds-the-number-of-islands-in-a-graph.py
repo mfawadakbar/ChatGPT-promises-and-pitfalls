@@ -52,6 +52,12 @@ def count_islands(matrix):
 #                  [1, 0, 0, 1, 1],
 #                  [0, 0, 0, 0, 0],
 #                  [1, 0, 1, 0, 1]]
-matrix = [[1, 1, 0, 0, 0], [0, 1, 0, 0, 1], [1, 0, 0, 1, 1], [0, 0, 0, 0, 0], [1, 0, 1, 0, 1]]
+matrix = [
+    [1, 1, 0, 0, 0], 
+    [0, 1, 0, 0, 1], 
+    [1, 0, 0, 1, 1], 
+    [0, 0, 0, 0, 0], 
+    [1, 0, 1, 0, 1]
+]
 island_count = count_islands(matrix)
 print("Number of islands:", island_count)

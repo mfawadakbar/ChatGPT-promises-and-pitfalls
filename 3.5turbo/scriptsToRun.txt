@@ -97,39 +97,39 @@
 ./visual-graphical-drawing/image-generation/creates-a-program-that-causes-the-python-turtle-to-travel-wh.py -- check
 ./mathematics/geometry/is-a-calculator-that-gets-the-area-and-volume-of-a-cube-sph.py -- check/unsure -- need to check the calculations
 ./mathematics/general/when-given-integral-number-n-write-a-program-to-generate-a.py 
-./mathematics/general/when-given-the-side-length-of-a-square-and-the-radius-of-a-c.py
-./mathematics/general/implements-a-function-that-converts-radians-to-degrees.py
+./mathematics/general/when-given-the-side-length-of-a-square-and-the-radius-of-a-c.py -- check
+./mathematics/general/implements-a-function-that-converts-radians-to-degrees.py -- check
 ./mathematics/general/will-find-all-such-numbers-which-are-divisible-by-7-but-are.py
 ./mathematics/general/uses-list-comprehension-to-square-each-odd-number-in-a-list.py
-./mathematics/general/inverts-a-tuple-representing-an-rgb-value-for-example-the.py
+./mathematics/general/inverts-a-tuple-representing-an-rgb-value-for-example-the.py -- check
 ./mathematics/general/defines-a-class-with-a-generator-which-can-iterate-the-numbe.py
 ./mathematics/general/calculates-and-prints-the-value-according-to-the-given-formu.py
 ./mathematics/general/accepts-a-sequence-of-comma-separated-4-digit-binary-numbers.py
-./mathematics/algebra/is-a-calculator-that-takes-an-equation-and-solves-for-x.py
-./mathematics/linear-algebra/is-a-calculator-to-multiply-any-number-of-matrices.py
-./mathematics/linear-algebra/is-a-calculator-that-exchanges-matrix-rows.py
-./mathematics/linear-algebra/is-a-calculator-that-transposes-a-matrix.py
-./mathematics/linear-algebra/is-a-calculator-that-inverts-a-matrix.py
-./mathematics/linear-algebra/is-a-calculator-that-multiplies-two-vectors.py
-./mathematics/linear-algebra/is-a-calculator-that-gets-the-eigenvalues-of-a-matrix.py
-./mathematics/linear-algebra/is-a-calculator-that-gets-the-rref-of-a-matrix.py
-./mathematics/trig/is-a-calculator-that-completes-a-triangle-given-enough-infor.py
-./mathematics/trig/is-a-calculator-for-the-pythagorean-theorem.py
-./mathematics/discrete-graphs/finds-the-number-of-islands-in-a-graph.py
-./mathematics/discrete-graphs/deterimes-if-a-small-randomly-generated-graph-is-hamiltonia.py
-./mathematics/discrete-graphs/finds-the-largest-cycle-in-a-graph.py
-./mathematics/discrete-graphs/generates-a-random-weighted-graph-and-use-dijkstra-s-algorit.py
-./mathematics/calculus-calculators/is-is-calculator-that-will-return-the-equation-for-a-tangent.py
-./mathematics/calculus-calculators/is-is-calculator-that-calculates-the-integral-of-an-equation.py
-./mathematics/calculus-calculators/is-is-calculator-that-calculates-the-derivative-of-an-equati.py
-./object-oriented/general/is-a-class-that-represents-a-deck-of-cards-with-implemented.py
-./object-oriented/general/defines-a-class-which-has-at-least-two-methods-1-getstring.py
-./object-oriented/general/is-a-flashcard-class-usable-in-other-scripts.py
-./object-oriented/general/is-a-stack-object-which-can-be-imported-and-used-in-other-py.py
-./object-oriented/inheritance-polymorphism-encapsulization/is-a-class-that-might-represent-a-student-but-ensure-that-t.py
+./mathematics/algebra/is-a-calculator-that-takes-an-equation-and-solves-for-x.py -- check -- When representing the two sides of the equation use Eq(), e.g.: Eq(x*2, 4)
+./mathematics/linear-algebra/is-a-calculator-to-multiply-any-number-of-matrices.py -- check
+./mathematics/linear-algebra/is-a-calculator-that-exchanges-matrix-rows.py -- check
+./mathematics/linear-algebra/is-a-calculator-that-transposes-a-matrix.py -- check
+./mathematics/linear-algebra/is-a-calculator-that-inverts-a-matrix.py -- check
+./mathematics/linear-algebra/is-a-calculator-that-multiplies-two-vectors.py -- check
+./mathematics/linear-algebra/is-a-calculator-that-gets-the-eigenvalues-of-a-matrix.py -- check
+./mathematics/linear-algebra/is-a-calculator-that-gets-the-rref-of-a-matrix.py -- bad -- Dont know why, but it doesn't even report the correct number of rows and columns for the matrix. Need to do more on this one
+./mathematics/trig/is-a-calculator-that-completes-a-triangle-given-enough-infor.py -- check -- if you are putting in a value you don't know put 0. Also, the program can't tell if it has enough information to fill out the triangle
+./mathematics/trig/is-a-calculator-for-the-pythagorean-theorem.py -- check
+./mathematics/discrete-graphs/finds-the-number-of-islands-in-a-graph.py -- check
+./mathematics/discrete-graphs/deterimes-if-a-small-randomly-generated-graph-is-hamiltonia.py -- bad -- Interesting, it used the library incorrectly. It's important to note that this is an np-complete problem, which is why the library has no implementation for it.
+./mathematics/discrete-graphs/finds-the-largest-cycle-in-a-graph.py -- check
+./mathematics/discrete-graphs/generates-a-random-weighted-graph-and-use-dijkstra-s-algorit.py -- check? -- I think it's correct, the issue is that it gives the largest int size as the distance when it cannot reach a certain node.
+./mathematics/calculus-calculators/is-is-calculator-that-will-return-the-equation-for-a-tangent.py -- bad? -- I can't figure out how to use it...
+./mathematics/calculus-calculators/is-is-calculator-that-calculates-the-integral-of-an-equation.py -- check
+./mathematics/calculus-calculators/is-is-calculator-that-calculates-the-derivative-of-an-equati.py -- check
+./object-oriented/general/is-a-class-that-represents-a-deck-of-cards-with-implemented.py -- check
+./object-oriented/general/defines-a-class-which-has-at-least-two-methods-1-getstring.py -- check
+./object-oriented/general/is-a-flashcard-class-usable-in-other-scripts.py -- check
+./object-oriented/general/is-a-stack-object-which-can-be-imported-and-used-in-other-py.py -- check
+./object-oriented/inheritance-polymorphism-encapsulization/is-a-class-that-might-represent-a-student-but-ensure-that-t.py -- check
 ./object-oriented/inheritance-polymorphism-encapsulization/is-a-set-of-classes-modeling-a-bank-account-with-withdraw-an.py
-./object-oriented/inheritance-polymorphism-encapsulization/is-three-classes-each-with-a-go-method-that-prints-the-cl.py
-./object-oriented/patterns/is-a-generic-implementation-of-the-state-design-pattern.py
-./object-oriented/patterns/is-a-generic-class-that-implements-the-singleton-pattern-in.py
-./object-oriented/patterns/uses-the-builder-pattern-to-create-a-hamburger-object-out-of.py
-./object-oriented/patterns/is-an-implementation-of-the-factory-pattern-that-creates-sev.py
+./object-oriented/inheritance-polymorphism-encapsulization/is-three-classes-each-with-a-go-method-that-prints-the-cl.py -- bad -- Works, but doesn't actually use polymorphism as described in the prompt
+./object-oriented/patterns/is-a-generic-implementation-of-the-state-design-pattern.py -- check -- It's impressive because it followed the actual design pattern as described by the pictures in the uml diagrams
+./object-oriented/patterns/is-a-generic-class-that-implements-the-singleton-pattern-in.py -- check
+./object-oriented/patterns/uses-the-builder-pattern-to-create-a-hamburger-object-out-of.py -- check
+./object-oriented/patterns/is-an-implementation-of-the-factory-pattern-that-creates-sev.py -- check

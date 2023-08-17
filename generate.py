@@ -39,13 +39,13 @@ for line in f:
             '''
         }]
 
-        response = completion.create(model="gpt-4", messages=chat_log)
+        response = completion.create(model="gpt-3.5-turbo", messages=chat_log)
         answer = response.choices[0]['message']['content']
 
         path = slugify(folder) + '/' + slugify(subfolder)
         print(path)
-        if not os.path.exists(folder + '/' + subfolder):
-            os.makedirs(path, exist_ok=True)
+        if not os.path.exists('rerun/' + folder + '/' + subfolder):
+            os.makedirs('rerun/' + path, exist_ok=True)
         
         new_f = open('rerun/' + path + '/' + slugify(prompt[:60]) + ".py", "w")
         new_f.write(answer)
