@@ -18,6 +18,7 @@ def download_images(keyword, num_images=5):
     # Download images
     paths = response.download(arguments)
 
+    print(paths)
     # Return the downloaded image paths
     return paths[keyword]
 

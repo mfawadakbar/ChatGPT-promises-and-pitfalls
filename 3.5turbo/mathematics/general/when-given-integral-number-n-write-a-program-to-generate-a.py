@@ -1,24 +1,22 @@
-def generate_dictionary(n):
-    # Initialize an empty dictionary
-    dictionary = {}
+def generate_dictionary(n: int) -> dict:
+    """
+    Generates a dictionary with (i, i x i) pairs for integral numbers between 1 and n.
 
-    # Iterate from 1 to n
+    Args:
+        n (int): The upper limit of the range (inclusive).
+
+    Returns:
+        dict: The generated dictionary.
+    """
+    square_dict = {}
+
     for i in range(1, n+1):
-        # If i is divisible by 2, add it as key in the dictionary
-        if i % 2 == 0:
-            dictionary[i] = i**2
-        # If i is not divisible by 2, add it as key and the square of i as value in the dictionary
-        else:
-            dictionary[i] = i**3
+        square_dict[i] = i * i
     
-    return dictionary
+    return square_dict
 
-if __name__ == '__main__':
-    # Get user input for n
+if __name__ == "__main__":
     n = int(input("Enter an integral number: "))
-    
-    # Generate the dictionary
+
     result = generate_dictionary(n)
-    
-    # Print the dictionary
     print(result)

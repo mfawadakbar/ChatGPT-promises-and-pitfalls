@@ -10,6 +10,7 @@ def create_pie_plot():
 
     # Create a pie plot
     plt.figure(figsize=(8, 6))
+    print("showing pie")
     plt.pie(species_counts, labels=species_counts.index, autopct='%1.1f%%', startangle=90)
     plt.axis('equal')  # Equal aspect ratio ensures that the pie is drawn as a circle
     plt.title('Frequency of Species in Iris Dataset')

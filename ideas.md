@@ -48,11 +48,11 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 - Uses the python turtle module to draw a simple panda [https://www.geeksforgeeks.org/draw-panda-using-turtle-graphics-in-python/]
 - Prints a half diamond star pattern using text with a maximum of N stars at the peak [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
 - Prints pascals triangle to N rows [https://www.geeksforgeeks.org/tag/python-pattern-printing/]
--x uses at least one “for” loop and one “while” loop to create an abstract design of your own choice. Use the command randcol to make it colourful [https://www.turtle.ox.ac.uk/downloads/docs/Turtle_Python_Exercises_1-12.pdf]
+- uses at least one “for” loop and one “while” loop to create an abstract design of your own choice. Use the command randcol to make it colourful [https://www.turtle.ox.ac.uk/downloads/docs/Turtle_Python_Exercises_1-12.pdf]
 
 #### Image Generation
 - Implements conway's game of life
-- generates interesting sprites of any size [https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f/]
+- generates random pixel art images of any size [https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f/]
 - generates a collage from pictures on the internet after being given a word
 - creates a program that causes the python turtle to travel wherever the mouse gets clicked on the screen and leave a trail
 
@@ -80,12 +80,12 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 - reverses a random linked list
 - implements a simple string hashing algorithm and uses it on an arbitrary string
 - hashes a provided photo (filetype png)
--x Generates a random maze represented by a 2d list using ones and zeroes. Find the shortest path from the top left corner of the maze to the bottom right corner using the A* search algorithm, then display your path. [https://en.wikipedia.org/wiki/A*_search_algorithm]
+- Generates a random maze represented by a 2d list using ones and zeroes. Find the shortest path from the top left corner of the maze to the bottom right corner using the A* search algorithm, then display your path. [https://en.wikipedia.org/wiki/A*_search_algorithm]
 - determines if a word is an isogram [https://edabit.com/challenge/vTGXrd5ntYRk3t6Ma]
 - when given an arbitrary string, apply an N shift caesar cypher to it [https://realpython.com/python-practice-problems/]
 - is a python version of the unix tool wc [https://codingchallenges.substack.com/p/coding-challenge-1]
 - is a python version of the unix tool uniq [https://codingchallenges.substack.com/p/coding-challenge-10-uniq]
--x accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%202.md]
+- accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%202.md]
 - swaps the first and last elements in a list [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
 - swaps an arbitrary two elements in a list [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
 - showcases the many ways to find the length of a list [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
@@ -175,12 +175,12 @@ Library: [https://pypi.org/project/datasets/]
 - when given the side length of a square and the radius of a circle determines which has a larger area [https://edabit.com/challenge/4me7LifXBwj5rhL4n]
 - implements a function that converts radians to degrees [https://edabit.com/challenge/2X2uZysLJ3CpsxLDD]
 - inverts a tuple representing an rgb value (for example, the rgb rgb(164, 194, 244) goes to rgb(91, 61, 11)) [https://edabit.com/challenge/i6hY9JSjQK4jcaB6i]
--x will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included).The numbers obtained should be printed in a comma-separated sequence on a single line. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%201.md]
--x when given integral number n, write a program to generate a dictionary that contains (i, i x i) such that i is an integral number between 1 and n (both included). and then the program should print the dictionary. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%201.md]
--x calculates and prints the value according to the given formula: Q = Square root of [(2 _ C _ D)/H] Following are the fixed values of C and H: C is 50. H is 30. D is the variable whose values should be input to your program in a comma-separated sequence.
--x accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%203.md]
--x Uses list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%205.md]
--x Defines a class with a generator which can iterate the numbers, which are divisible by 7, between a given range 0 and n. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%207.md]
+- will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included).The numbers obtained should be printed in a comma-separated sequence on a single line. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%201.md]
+- when given integral number n, write a program to generate a dictionary that contains (i, i x i) such that i is an integral number between 1 and n (both included). and then the program should print the dictionary. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%201.md]
+- calculates and prints the value according to the given formula: Q = Square root of [(2 _ C _ D)/H] Following are the fixed values of C and H: C is 50. H is 30. D is the variable whose values should be input to your program in a comma-separated sequence.
+- accepts a sequence of comma separated 4 digit binary numbers as its input and then check whether they are divisible by 5 or not. The numbers that are divisible by 5 are to be printed in a comma separated sequence. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%203.md]
+- Uses list comprehension to square each odd number in a list. The list is input by a sequence of comma-separated numbers. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%205.md]
+- Defines a class with a generator which can iterate the numbers, which are divisible by 7, between a given range 0 and n. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%207.md]
 
 #### Discrete Graphs
 ##### These all use Adjacency Lists to represent the graphs. Ex: { a: [b, c], b: [a, c], c: [a, b], d: [e], e: [d]}
@@ -219,7 +219,7 @@ Library: [https://pypi.org/project/datasets/]
 ## Object Oriented
 #### General
 - is a flashcard class usable in other scripts [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
--x Defines a class which has at least two methods: 1. getString: to get a string from console input 2. printString: to print the string in upper case. Also please include simple test function to test the class methods. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%202.md]
+- Defines a class which has at least two methods: 1. getString: to get a string from console input 2. printString: to print the string in upper case. Also please include simple test function to test the class methods. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%202.md]
 - is a class that represents a deck of cards with implemented shuffle and draw methods and is easily used in another python program
 - is a stack object which can be imported and used in other python projects
 
@@ -232,7 +232,7 @@ Library: [https://pypi.org/project/datasets/]
 
 #### Inheritance/Polymorphism/Encapsulization/
 - is a class that might represent a student, but ensure that the student is created in an encapsulated manner, he should have several attributes but only his grade should be modifyable with public methods
--x is a set of classes modeling a bank account with withdraw and deposit methods. Use inheritance so that you have two classes which inherit from the first, one of which has a minimum value for the bank account, and the other which has a maximum value for the bank account [https://buildmedia.readthedocs.org/media/pdf/python-practice-book/latest/python-practice-book.pdf]
+- is a set of classes modeling a bank account with withdraw and deposit methods. Use inheritance so that you have two classes which inherit from the first, one of which has a minimum value for the bank account, and the other which has a maximum value for the bank account [https://buildmedia.readthedocs.org/media/pdf/python-practice-book/latest/python-practice-book.pdf]
 - is three classes, each with a go method that prints "The [classname here] is going!" and takes advantage of polymorphism [https://www.youtube.com/watch?v=2hkngtWLGvE&pp=ygUdcHJhY3RpY2UgcG9seW1vcnBoaXNtIGluIGphdmE%3D]
 
 

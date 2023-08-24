@@ -1,8 +1,11 @@
-# Get user input for a sequence of numbers
-numbers = input("Enter a sequence of numbers (separated by spaces): ").split()
+# Ask the user for a sequence of comma-separated numbers
+numbers = input("Enter a sequence of comma-separated numbers: ")
+
+# Split the input into separate numbers
+number_list = numbers.split(",")
 
 # Use list comprehension to square each odd number
-squared_odd_numbers = [int(num)**2 for num in numbers if int(num) % 2 != 0]
+squared_odd_numbers = [int(number)**2 for number in number_list if int(number) % 2 != 0]
 
-# Print the squared odd numbers
-print("Squared odd numbers:", squared_odd_numbers)
+# Print the result
+print(squared_odd_numbers)

@@ -5,9 +5,9 @@ def connect_to_database():
     try:
         connection = mysql.connector.connect(
             host='localhost',
-            user='your_username',
-            password='your_password',
-            database='your_database_name'
+            user='madram',
+            password='developer#1$',
+            database='test_gpt'
         )
         return connection
     except:

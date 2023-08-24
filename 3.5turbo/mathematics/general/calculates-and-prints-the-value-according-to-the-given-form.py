@@ -1,4 +1,3 @@
-```
 import math
 
 def calculate_Q(D):
@@ -27,4 +26,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-```

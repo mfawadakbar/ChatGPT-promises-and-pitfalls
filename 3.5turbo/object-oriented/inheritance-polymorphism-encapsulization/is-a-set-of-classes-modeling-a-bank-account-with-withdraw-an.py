@@ -1,28 +1,46 @@
 class BankAccount:
-    def __init__(self, account_number, balance=0):
-        self.account_number = account_number
-        self.balance = balance
+    def __init__(self):
+        self.balance = 0
 
     def deposit(self, amount):
-        self.balance += amount
+        """Method to deposit money into the bank account"""
+        if amount > 0:
+            self.balance += amount
+        else:
+            print("Invalid amount for deposit")
 
     def withdraw(self, amount):
-        if self.balance >= amount:
-            self.balance -= amount
+        """Method to withdraw money from the bank account"""
+        if amount > 0:
+            if self.balance >= amount:
+                self.balance -= amount
+            else:
+                print("Insufficient balance")
         else:
-            print("Insufficient funds")
-
-    def __str__(self):
-        return f"Account: {self.account_number}, Balance: {self.balance}"
+            print("Invalid amount for withdrawal")
 
 
 class MinimumBalanceAccount(BankAccount):
-    def __init__(self, account_number, balance=0, minimum_balance=0):
-        super().__init__(account_number, balance)
+    def __init__(self, minimum_balance):
+        super().__init__()
         self.minimum_balance = minimum_balance
 
     def withdraw(self, amount):
-        if self.balance - amount < self.minimum_balance:
-            print("Withdrawal amount exceeds available balance")
-        else:
+        """Method to withdraw money from the minimum balance account"""
+        if self.balance - amount >= self.minimum_balance:
             super().withdraw(amount)
+        else:
+            print("Minimum balance limit reached")
+
+
+class MaximumBalanceAccount(BankAccount):
+    def __init__(self, maximum_balance):
+        super().__init__()
+        self.maximum_balance = maximum_balance
+
+    def deposit(self, amount):
+        """Method to deposit money into the maximum balance account"""
+        if self.balance + amount <= self.maximum_balance:
+            super().deposit(amount)
+        else:
+            print("Maximum balance limit reached")

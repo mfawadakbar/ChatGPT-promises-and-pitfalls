@@ -1,0 +1,77 @@
+- accepts a png and makes all of the white in the picture transparent
+- accepts a png, jpeg, or gif, and flips it vertically or horizontally based on user input
+- Accepts a png and deep fries it
+- Accepts a .stl file and displays its contents
+- uses the python turtle module to draw a 2D 8x8 chessboard of alternating black and white squares
+- Uses the python turtle module to draw the letters "GPT" using only lines
+- Uses the python turtle module draw a smiley face
+- Implements conway's game of life
+- generates a collage from pictures on the internet after being given a word
+- creates a program that causes the python turtle to travel wherever the mouse gets clicked on the screen and leave a trail
+- displays a Koch snowflake of n (user provided) iterations
+- allows you to choose between several different types of fractals to display, and to choose the number of iterations to use in the generation step
+- causes an empty window GUI to appear. The window disappears when clicked
+- creates a user interface that places a circle of random size and color in the location that is clicked
+- creates a UI that is a basic desktop program with a title bar and options at the top that would be easy to change and extend
+- allows you to draw a line between two points that are clicked on the screen
+- displays a timer
+- shows a single select box with some randomly generated options. It does nothing other than allows you to select the options in the box
+- plays a sound after a button gets clicked
+- finds the number of occurences of a certain letter in a string
+- uses several common sorting algorithms to sort an array of random numbers and compares the time it takes for each of them. Make sure to label them.
+- reverses a random linked list
+- implements a simple string hashing algorithm and uses it on an arbitrary string
+- hashes a provided photo (filetype png)
+- sorts a random array of numbers as fast as possible and tell me which sorting algorithm you used
+- uses recursion to find the Nth fibonacci number.
+- uses recursion to find the occurences of a letter in a string
+- Recursively deletes every node in an arbitrarily long linked list
+- Implements a linked list data structure in python
+- creates an arbitrarily long linked list of random numbers.
+- creates and randomly populates an arbitrarily large binary search tree
+- Creates a representation of a matrix using lists, and that provides basic functionality such as adding a row to the matrix or deleting a row from it
+- Implements a binary search tree in a class
+- determines the sentiment of a comment on imdb
+- takes one of the datasets and vectorizes the text
+- creates a plot to get a general Statistics of Iris data. 
+- creates a Pie plot to get the frequency of the three species of the Iris data. 
+- views basic statistical details like percentile, mean, std etc. of iris data.
+- creates a graph to see how the length and width of SepalLength, SepalWidth, PetalLength, PetalWidth are distributed. 
+- generates some amount of random numbers and stores them in a file
+- interfaces with a mysql database library and puts provided first names and last names into a table on the database
+- compresses and decompresses a text file
+- converts a csv file to a json file
+- takes a json file and reads it into the program as a json object
+- takes a file, and a line number and prints the line number
+- Finds the outliers in a data set
+- determines how far each number in a list of numbers is from the standard deviation and returns a list of the distances
+- Creates a python script that takes a csv file with the headers [headers here] and displays a histogram
+- graphs an array of tuples (x, y) on a cartesian coordinate plane
+- displays a discrete graph (needs a representation and possibly more constraints)
+- displays a box and whiskers plot for an array of integers
+- when given a csv file with an id column and a timestamp column, plots the id's on a line in order of occurance
+- when given a list of strings, determines the statistically significant strings based on occurance
+- calculates and prints the value according to the given formula: Q = Square root of [(2 _ C _ D)/H] Following are the fixed values of C and H: C is 50. H is 30. D is the variable whose values should be input to your program in a comma-separated sequence.
+- Deterimes if a small, randomly generated graph is hamiltonian
+- Finds the number of islands in a graph
+- Finds the largest cycle in a graph
+- is is calculator that calculates the derivative of an equation
+- is is calculator that calculates the integral of an equation
+- is is calculator that will return the equation for a tangent line of an equation at a point
+- is a calculator that multiplies two vectors
+- is a calculator that inverts a matrix.
+- is a calculator that gets the rref of a matrix
+- is a calculator to multiply any number of matrices
+- is a calculator that transposes a matrix
+- is a calculator that exchanges matrix rows.
+- is a calculator that gets the eigenvalues of a matrix
+- is a calculator that gets the area and volume of a cube, sphere, or cone
+- is a calculator that takes an equation and solves for x
+- is a calculator for the pythagorean theorem
+- is a calculator that completes a triangle given enough information (all edge lengths and angles)
+- is a class that represents a deck of cards with implemented shuffle and draw methods and is easily used in another python program
+- is a stack object which can be imported and used in other python projects
+- is a generic class that implements the singleton pattern in a reusable manner
+- is a generic implementation of the state design pattern
+- is an implementation of the factory pattern that creates several types of animals that each have a method called bark() that prints their sound to the screen
+- is a class that might represent a student, but ensure that the student is created in an encapsulated manner, he should have several attributes but only his grade should be modifyable with public methods

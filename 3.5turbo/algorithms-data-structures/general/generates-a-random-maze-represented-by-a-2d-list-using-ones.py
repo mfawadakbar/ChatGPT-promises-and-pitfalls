@@ -1,36 +1,102 @@
 import random
+import heapq
 
-def generate_maze(rows, columns):
-    # Initialize a grid of zeros
-    maze = [[0] * columns for _ in range(rows)]
-    
-    # Recursive function to create the maze
-    def create_maze(row, col):
-        # Calculate the directions to move in
-        directions = [(0, -2), (2, 0), (0, 2), (-2, 0)]
-        random.shuffle(directions)
-        
-        for dx, dy in directions:
-            new_row = row + dx
-            new_col = col + dy
+class Cell:
+    def __init__(self, row, col):
+        self.row = row
+        self.col = col
+        self.g = float('inf')
+        self.h = float('inf')
+        self.f = float('inf')
+        self.parent = None
+        self.wall = False
+
+    def __lt__(self, other):
+        return self.f < other.f
+
+class Maze:
+    def __init__(self, rows, cols):
+        self.rows = rows
+        self.cols = cols
+        self.grid = [[Cell(row, col) for col in range(cols)] for row in range(rows)]
+        self.start = self.grid[0][0]
+        self.end = self.grid[rows-1][cols-1]
+
+    def generate(self):
+        for row in self.grid:
+            for cell in row:
+                if random.random() < 0.3:
+                    cell.wall = True
+
+    def heuristic(self, cell):
+        return abs(cell.row - self.end.row) + abs(cell.col - self.end.col)
+
+    def get_neighbors(self, cell):
+        neighbors = []
+        if cell.row > 0:  # up
+            neighbors.append(self.grid[cell.row-1][cell.col])
+        if cell.row < self.rows - 1:  # down
+            neighbors.append(self.grid[cell.row+1][cell.col])
+        if cell.col > 0:  # left
+            neighbors.append(self.grid[cell.row][cell.col-1])
+        if cell.col < self.cols - 1:  # right
+            neighbors.append(self.grid[cell.row][cell.col+1])
+        return neighbors
+
+    def astar(self):
+        open_list = []
+        closed_set = set()
+
+        self.start.g = 0
+        self.start.h = self.heuristic(self.start)
+        self.start.f = self.start.g + self.start.h
+        heapq.heappush(open_list, self.start)
+
+        while open_list:
+            current = heapq.heappop(open_list)
+            if current == self.end:
+                path = []
+                while current:
+                    path.append((current.row, current.col))
+                    current = current.parent
+                return path[::-1]
             
-            # Check if the new position is valid
-            if 0 <= new_row < rows and 0 <= new_col < columns and maze[new_row][new_col] == 0:
-                # Carve a path through wall
-                maze[new_row][new_col] = 1
-                maze[row + dx // 2][col + dy // 2] = 1
-                
-                # Recursive call for the new position
-                create_maze(new_row, new_col)
-    
-    # Start the maze generation from a random position
-    start_row = random.randint(0, rows-1) // 2 * 2 + 1
-    start_col = random.randint(0, columns-1) // 2 * 2 + 1
-    create_maze(start_row, start_col)
-    
-    return maze
+            closed_set.add(current)
+            neighbors = self.get_neighbors(current)
+            for neighbor in neighbors:
+                if neighbor.wall or neighbor in closed_set:
+                    continue
+                g = current.g + 1
+                if g < neighbor.g:
+                    neighbor.g = g
+                    neighbor.h = self.heuristic(neighbor)
+                    neighbor.f = neighbor.g + neighbor.h
+                    neighbor.parent = current
+                    if neighbor not in open_list:
+                        heapq.heappush(open_list, neighbor)
 
-# Example usage
-maze = generate_maze(10, 10)
-for row in maze:
-    print(row)
+        return None
+
+    def display(self, path):
+        for row in self.grid:
+            for cell in row:
+                if cell == self.start:
+                    print("S", end=" ")
+                elif cell == self.end:
+                    print("E", end=" ")
+                elif cell.wall:
+                    print("#", end=" ")
+                elif (cell.row, cell.col) in path:
+                    print(".", end=" ")
+                else:
+                    print(" ", end=" ")
+            print()
+
+if __name__ == "__main__":
+    maze = Maze(10, 10)
+    maze.generate()
+    path = maze.astar()
+    if path:
+        maze.display(path)
+    else:
+        print("No path found.")
