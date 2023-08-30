@@ -36,8 +36,8 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 #### Image processing 
 - accepts a png and makes all of the white in the picture transparent
 - accepts a png, jpeg, or gif, and flips it vertically or horizontally based on user input
-- accepts a png and grayscales it [https://www.projectpro.io/article/image-processing-projects-ideas/460]
-- Accepts a png and inverts it [https://edabit.com/challenge/i6hY9JSjQK4jcaB6i]
+=- accepts a png and grayscales it [https://www.projectpro.io/article/image-processing-projects-ideas/460] Code Retrieved From: [https://www.geeksforgeeks.org/python-grayscaling-of-images-using-opencv/]
+=- Accepts a png and inverts it [https://edabit.com/challenge/i6hY9JSjQK4jcaB6i] Code Retrieved From: [https://note.nkmk.me/en/python-pillow-invert/]
 - Accepts a png and deep fries it
 - Accepts a .stl file and displays its contents
 
@@ -45,21 +45,21 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 - uses the python turtle module to draw a 2D 8x8 chessboard of alternating black and white squares
 - Uses the python turtle module to draw the letters "GPT" using only lines
 - Uses the python turtle module draw a smiley face
-- Uses the python turtle module to draw a simple panda [https://www.geeksforgeeks.org/draw-panda-using-turtle-graphics-in-python/]
-- Prints a half diamond star pattern using text with a maximum of N stars at the peak [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
-- Prints pascals triangle to N rows [https://www.geeksforgeeks.org/tag/python-pattern-printing/]
+=- Uses the python turtle module to draw a simple panda [https://www.geeksforgeeks.org/draw-panda-using-turtle-graphics-in-python/] Retrieved Code From: [https://www.geeksforgeeks.org/draw-panda-using-turtle-graphics-in-python/]
+=- Prints a half diamond star pattern using text with a maximum of N stars at the peak [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/] Retrieved Code From: [https://www.geeksforgeeks.org/program-to-print-half-diamond-star-pattern/]
+=- Prints pascals triangle to N rows [https://www.geeksforgeeks.org/tag/python-pattern-printing/] Code Retrieved From: [https://www.geeksforgeeks.org/python-program-to-print-pascals-triangle/]
 - uses at least one “for” loop and one “while” loop to create an abstract design of your own choice. Use the command randcol to make it colourful [https://www.turtle.ox.ac.uk/downloads/docs/Turtle_Python_Exercises_1-12.pdf]
 
 #### Image Generation
 - Implements conway's game of life
-- generates random pixel art images of any size [https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f/]
+=- generates random pixel art images of any size [https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f/] Code Retrieved From: [https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f/]
 - generates a collage from pictures on the internet after being given a word
 - creates a program that causes the python turtle to travel wherever the mouse gets clicked on the screen and leave a trail
 
 #### Fractals
 - displays a Koch snowflake of n (user provided) iterations
-- displays a Fractal Triangle [https://fractalfoundation.org/resources/fractivities/]
-- displays a Tree Fractal [https://fractalfoundation.org/resources/fractivities/]
+=- displays a Fractal Triangle [https://fractalfoundation.org/resources/fractivities/] Code Retrieved From: [https://understanding-recursion.readthedocs.io/en/latest/14%20Sierpinski.html]
+=- displays a Tree Fractal [https://fractalfoundation.org/resources/fractivities/] Code Retrieved From: [https://www.geeksforgeeks.org/y-fractal-tree-in-python-using-turtle/]
 - allows you to choose between several different types of fractals to display, and to choose the number of iterations to use in the generation step
 
 #### GUI
