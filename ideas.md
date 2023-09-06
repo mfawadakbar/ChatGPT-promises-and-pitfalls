@@ -34,7 +34,7 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 ## Visual/Graphical/Drawing
 
 #### Image processing 
-- accepts a png and makes all of the white in the picture transparent
+- accepts a png and makes all of the white in the picture transparent Code Retrieved From: [https://stackoverflow.com/questions/765736/how-to-use-pil-to-make-all-white-pixels-transparent]
 - accepts a png, jpeg, or gif, and flips it vertically or horizontally based on user input
 =- accepts a png and grayscales it [https://www.projectpro.io/article/image-processing-projects-ideas/460] Code Retrieved From: [https://www.geeksforgeeks.org/python-grayscaling-of-images-using-opencv/]
 =- Accepts a png and inverts it [https://edabit.com/challenge/i6hY9JSjQK4jcaB6i] Code Retrieved From: [https://note.nkmk.me/en/python-pillow-invert/]
