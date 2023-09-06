@@ -1,5 +1,5 @@
-- accepts a png and makes all of the white in the picture transparent
-- accepts a png, jpeg, or gif, and flips it vertically or horizontally based on user input
+x- accepts a png and makes all of the white in the picture transparent
+x- accepts a png, jpeg, or gif, and flips it vertically or horizontally based on user input
 - Accepts a png and deep fries it
 - Accepts a .stl file and displays its contents
 - uses the python turtle module to draw a 2D 8x8 chessboard of alternating black and white squares
