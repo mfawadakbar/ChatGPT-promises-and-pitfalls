@@ -4,7 +4,7 @@
 - Accepts a .stl file and displays its contents
 - uses the python turtle module to draw a 2D 8x8 chessboard of alternating black and white squares
 - Uses the python turtle module to draw the letters "GPT" using only lines
-- Uses the python turtle module draw a smiley face
+x- Uses the python turtle module draw a smiley face
 - Implements conway's game of life
 - generates a collage from pictures on the internet after being given a word
 - creates a program that causes the python turtle to travel wherever the mouse gets clicked on the screen and leave a trail
@@ -24,7 +24,7 @@ x- finds the number of occurences of a certain letter in a string
 - hashes a provided photo (filetype png)
 - sorts a random array of numbers as fast as possible and tell me which sorting algorithm you used
 x- uses recursion to find the Nth fibonacci number.
-- uses recursion to find the occurences of a letter in a string
+x- uses recursion to find the occurences of a letter in a string
 - Recursively deletes every node in an arbitrarily long linked list
 - Implements a linked list data structure in python
 - creates an arbitrarily long linked list of random numbers.
@@ -46,7 +46,7 @@ x- takes a file, and a line number and prints the line number
 - Finds the outliers in a data set
 - determines how far each number in a list of numbers is from the standard deviation and returns a list of the distances
 - Creates a python script that takes a csv file with the headers [headers here] and displays a histogram
-- graphs an array of tuples (x, y) on a cartesian coordinate plane
+x- graphs an array of tuples (x, y) on a cartesian coordinate plane
 - displays a discrete graph (needs a representation and possibly more constraints)
 - displays a box and whiskers plot for an array of integers
 - when given a csv file with an id column and a timestamp column, plots the id's on a line in order of occurance
@@ -70,7 +70,7 @@ x- is a calculator that gets the area and volume of a cube, sphere, or cone
 x- is a calculator for the pythagorean theorem
 - is a calculator that completes a triangle given enough information (all edge lengths and angles)
 - is a class that represents a deck of cards with implemented shuffle and draw methods and is easily used in another python program
-- is a stack object which can be imported and used in other python projects
+x- is a stack object which can be imported and used in other python projects
 - is a generic class that implements the singleton pattern in a reusable manner
 - is a generic implementation of the state design pattern
 - is an implementation of the factory pattern that creates several types of animals that each have a method called bark() that prints their sound to the screen
