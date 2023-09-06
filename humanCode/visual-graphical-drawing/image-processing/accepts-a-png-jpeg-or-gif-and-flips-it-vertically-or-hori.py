@@ -32,6 +32,6 @@ if __name__ == "__main__":
     if IMG_PATH[-4:] not in [".png", ".jpg", ".gif"]:
         raise Exception("Image is not a png, jpg, or gif")
     else:
-        print("Flipping image... {IMG_PATH}")
+        print(f"Flipping image... {IMG_PATH}")
         # Flip the image and display the result
         print(flip_image(IMG_PATH, FLIP_TYPE))
