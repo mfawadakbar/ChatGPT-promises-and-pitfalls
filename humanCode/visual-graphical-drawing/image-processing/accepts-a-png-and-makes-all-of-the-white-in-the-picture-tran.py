@@ -27,7 +27,7 @@ def make_white_transparent(IMG_PATH):
 if __name__ == "__main__":
     print("Current Working Directory: ", os.getcwd())
     IMG_PATH = str(input("Enter the path to the image: "))
-    IMG_PATH = glob.glob(IMG_PATH)
+    IMG_PATH = glob.glob(IMG_PATH)[0]
     print("Found image: ", IMG_PATH)
     make_white_transparent(IMG_PATH)
     print("Done!")
