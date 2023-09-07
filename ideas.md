@@ -51,13 +51,13 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 - uses at least one “for” loop and one “while” loop to create an abstract design of your own choice. Use the command randcol to make it colourful [https://www.turtle.ox.ac.uk/downloads/docs/Turtle_Python_Exercises_1-12.pdf]
 
 #### Image Generation
-- Implements conway's game of life
+- Implements conway's game of life Code Retrieved From: [https://www.geeksforgeeks.org/program-for-conways-game-of-life/]
 =- generates random pixel art images of any size [https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f/] Code Retrieved From: [https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f/]
 - generates a collage from pictures on the internet after being given a word
 - creates a program that causes the python turtle to travel wherever the mouse gets clicked on the screen and leave a trail
 
 #### Fractals
-- displays a Koch snowflake of n (user provided) iterations
+- displays a Koch snowflake of n (user provided) iterations Code Retrieved From [https://www.geeksforgeeks.org/koch-curve-koch-snowflake/]
 =- displays a Fractal Triangle [https://fractalfoundation.org/resources/fractivities/] Code Retrieved From: [https://understanding-recursion.readthedocs.io/en/latest/14%20Sierpinski.html]
 =- displays a Tree Fractal [https://fractalfoundation.org/resources/fractivities/] Code Retrieved From: [https://www.geeksforgeeks.org/y-fractal-tree-in-python-using-turtle/]
 - allows you to choose between several different types of fractals to display, and to choose the number of iterations to use in the generation step
@@ -69,7 +69,7 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 - creates a tic tac toe game with a simple UI [https://realpython.com/tutorials/gui/]
 - creates a UI that is a basic desktop program with a title bar and options at the top that would be easy to change and extend
 - allows you to draw a line between two points that are clicked on the screen
-- displays a timer
+- displays a timer Code Retrieved From [Non-GUI: https://www.udacity.com/blog/2021/09/create-a-timer-in-python-step-by-step-guide.html or GUI: https://www.geeksforgeeks.org/create-countdown-timer-using-python-tkinter/]
 - shows a single select box with some randomly generated options. It does nothing other than allows you to select the options in the box
 - plays a sound after a button gets clicked
 
