@@ -66,12 +66,12 @@ x- graphs an array of tuples (x, y) on a cartesian coordinate plane
 - is a calculator that exchanges matrix rows.
 - is a calculator that gets the eigenvalues of a matrix
 x- is a calculator that gets the area and volume of a cube, sphere, or cone
-- is a calculator that takes an equation and solves for x
+x- is a calculator that takes an equation and solves for x
 x- is a calculator for the pythagorean theorem
-- is a calculator that completes a triangle given enough information (all edge lengths and angles)
-- is a class that represents a deck of cards with implemented shuffle and draw methods and is easily used in another python program
+x- is a calculator that completes a triangle given enough information (all edge lengths and angles)
+x- is a class that represents a deck of cards with implemented shuffle and draw methods and is easily used in another python program
 x- is a stack object which can be imported and used in other python projects
-- is a generic class that implements the singleton pattern in a reusable manner
-- is a generic implementation of the state design pattern
-- is an implementation of the factory pattern that creates several types of animals that each have a method called bark() that prints their sound to the screen
+x- is a generic class that implements the singleton pattern in a reusable manner
+x- is a generic implementation of the state design pattern
+x- is an implementation of the factory pattern that creates several types of animals that each have a method called bark() that prints their sound to the screen
 x- is a class that might represent a student, but ensure that the student is created in an encapsulated manner, he should have several attributes but only his grade should be modifyable with public methods
