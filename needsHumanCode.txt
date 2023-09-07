@@ -15,7 +15,7 @@ x- causes an empty window GUI to appear. The window disappears when clicked
 - creates a UI that is a basic desktop program with a title bar and options at the top that would be easy to change and extend
 - allows you to draw a line between two points that are clicked on the screen
 - displays a timer
-x- shows a single select box with some randomly generated options. It does nothing other than allows you to select the options in the box
+?x- shows a single select box with some randomly generated options. It does nothing other than allows you to select the options in the box
 - plays a sound after a button gets clicked
 x- finds the number of occurences of a certain letter in a string
 - uses several common sorting algorithms to sort an array of random numbers and compares the time it takes for each of them. Make sure to label them.
@@ -37,7 +37,7 @@ x- uses recursion to find the occurences of a letter in a string
 - creates a Pie plot to get the frequency of the three species of the Iris data. 
 - views basic statistical details like percentile, mean, std etc. of iris data.
 - creates a graph to see how the length and width of SepalLength, SepalWidth, PetalLength, PetalWidth are distributed. 
-x- generates some amount of random numbers and stores them in a file
+?x- generates some amount of random numbers and stores them in a file
 x- interfaces with a mysql database library and puts provided first names and last names into a table on the database
 - compresses and decompresses a text file
 x- converts a csv file to a json file
@@ -74,4 +74,4 @@ x- is a stack object which can be imported and used in other python projects
 - is a generic class that implements the singleton pattern in a reusable manner
 - is a generic implementation of the state design pattern
 - is an implementation of the factory pattern that creates several types of animals that each have a method called bark() that prints their sound to the screen
-- is a class that might represent a student, but ensure that the student is created in an encapsulated manner, he should have several attributes but only his grade should be modifyable with public methods
+x- is a class that might represent a student, but ensure that the student is created in an encapsulated manner, he should have several attributes but only his grade should be modifyable with public methods
