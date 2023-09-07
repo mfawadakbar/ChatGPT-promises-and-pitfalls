@@ -2,8 +2,8 @@ x- accepts a png and makes all of the white in the picture transparent
 x- accepts a png, jpeg, or gif, and flips it vertically or horizontally based on user input
 x- Accepts a png and deep fries it
 x- Accepts a .stl file and displays its contents
-- uses the python turtle module to draw a 2D 8x8 chessboard of alternating black and white squares
-- Uses the python turtle module to draw the letters "GPT" using only lines
+x- uses the python turtle module to draw a 2D 8x8 chessboard of alternating black and white squares
+x- Uses the python turtle module to draw the letters "GPT" using only lines
 x- Uses the python turtle module draw a smiley face
 - Implements conway's game of life
 - generates a collage from pictures on the internet after being given a word

@@ -42,7 +42,7 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 - Accepts a .stl file and displays its contents
 
 #### Drawing Common Objects
-- uses the python turtle module to draw a 2D 8x8 chessboard of alternating black and white squares
+- uses the python turtle module to draw a 2D 8x8 chessboard of alternating black and white squares Code Retrieved From: [https://www.geeksforgeeks.org/draw-chess-board-using-turtle-in-python/]
 - Uses the python turtle module to draw the letters "GPT" using only lines
 - Uses the python turtle module draw a smiley face
 =- Uses the python turtle module to draw a simple panda [https://www.geeksforgeeks.org/draw-panda-using-turtle-graphics-in-python/] Retrieved Code From: [https://www.geeksforgeeks.org/draw-panda-using-turtle-graphics-in-python/]
