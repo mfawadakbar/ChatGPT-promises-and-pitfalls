@@ -54,17 +54,17 @@ x- graphs an array of tuples (x, y) on a cartesian coordinate plane
 - calculates and prints the value according to the given formula: Q = Square root of [(2 _ C _ D)/H] Following are the fixed values of C and H: C is 50. H is 30. D is the variable whose values should be input to your program in a comma-separated sequence.
 - Deterimes if a small, randomly generated graph is hamiltonian
 - Finds the number of islands in a graph
-- Finds the largest cycle in a graph
-- is is calculator that calculates the derivative of an equation
-- is is calculator that calculates the integral of an equation
-- is is calculator that will return the equation for a tangent line of an equation at a point
-- is a calculator that multiplies two vectors
-- is a calculator that inverts a matrix.
-- is a calculator that gets the rref of a matrix
-- is a calculator to multiply any number of matrices
-- is a calculator that transposes a matrix
-- is a calculator that exchanges matrix rows.
-- is a calculator that gets the eigenvalues of a matrix
+x- Finds the largest cycle in a graph
+x- is is calculator that calculates the derivative of an equation
+x- is is calculator that calculates the integral of an equation
+x- is is calculator that will return the equation for a tangent line of an equation at a point
+x- is a calculator that multiplies two vectors
+x- is a calculator that inverts a matrix.
+x- is a calculator that gets the rref of a matrix
+x- is a calculator to multiply any number of matrices
+x- is a calculator that transposes a matrix
+x- is a calculator that exchanges matrix rows.
+x- is a calculator that gets the eigenvalues of a matrix
 x- is a calculator that gets the area and volume of a cube, sphere, or cone
 x- is a calculator that takes an equation and solves for x
 x- is a calculator for the pythagorean theorem
