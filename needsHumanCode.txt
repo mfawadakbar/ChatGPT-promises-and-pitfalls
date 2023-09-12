@@ -18,19 +18,19 @@ x- displays a timer
 ?x- shows a single select box with some randomly generated options. It does nothing other than allows you to select the options in the box
 x- plays a sound after a button gets clicked
 x- finds the number of occurences of a certain letter in a string
-- uses several common sorting algorithms to sort an array of random numbers and compares the time it takes for each of them. Make sure to label them.
+x- uses several common sorting algorithms to sort an array of random numbers and compares the time it takes for each of them. Make sure to label them.
 x- reverses a random linked list
-- implements a simple string hashing algorithm and uses it on an arbitrary string
-- hashes a provided photo (filetype png)
-- sorts a random array of numbers as fast as possible and tell me which sorting algorithm you used
+x- implements a simple string hashing algorithm and uses it on an arbitrary string
+x- hashes a provided photo (filetype png)
+x- sorts a random array of numbers as fast as possible and tell me which sorting algorithm you used
 x- uses recursion to find the Nth fibonacci number.
 x- uses recursion to find the occurences of a letter in a string
-- Recursively deletes every node in an arbitrarily long linked list
-- Implements a linked list data structure in python
+x- Recursively deletes every node in an arbitrarily long linked list
+x- Implements a linked list data structure in python
 - creates an arbitrarily long linked list of random numbers.
 - creates and randomly populates an arbitrarily large binary search tree
 - Creates a representation of a matrix using lists, and that provides basic functionality such as adding a row to the matrix or deleting a row from it
-- Implements a binary search tree in a class
+x- Implements a binary search tree in a class
 - determines the sentiment of a comment on imdb
 - takes one of the datasets and vectorizes the text
 - creates a plot to get a general Statistics of Iris data. 

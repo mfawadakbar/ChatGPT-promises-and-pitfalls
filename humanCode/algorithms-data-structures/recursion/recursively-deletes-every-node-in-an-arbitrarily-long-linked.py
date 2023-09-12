@@ -25,6 +25,7 @@ class LinkedList:
         while temp:
             print(temp.data, end=" ")
             temp = temp.next
+        print("\n")
 
     def set_next(self, next):
         self.next = next
@@ -33,12 +34,10 @@ class LinkedList:
     def delete_list(self):
         if self.head is None:
             return
-        else:
-            current_node = self.head
-            next_node = current_node.next
-            del current_node
-            self.head = None
-            self.delete_list(next_node)
+        while self.head:
+            print(self.head.data, end=" ")
+            del self.head.data
+            self.head = self.head.next
 
 
 # Driver program to test above functions
@@ -49,11 +48,12 @@ for i in range(rand_len):
     llist.push(rand.randint(1, 100))
 
 
-print("Given Linked List")
+print("\nGiven Linked List")
 llist.printList()
-llist.reverse()
-print("\nReversed Linked List")
-llist.printList()
-llist.deleteList()
-print("\Deleted Linked List")
+print("\nDeleting Linked List")
+llist.delete_list()
+
+print("\nNew Linked List [1,2,3,4]")
+for i in [1, 2, 3, 4]:
+    llist.push(i)
 llist.printList()
