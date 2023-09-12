@@ -71,13 +71,13 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 - allows you to draw a line between two points that are clicked on the screen
 - displays a timer Code Retrieved From [Non-GUI: https://www.udacity.com/blog/2021/09/create-a-timer-in-python-step-by-step-guide.html or GUI: https://www.geeksforgeeks.org/create-countdown-timer-using-python-tkinter/]
 - shows a single select box with some randomly generated options. It does nothing other than allows you to select the options in the box
-- plays a sound after a button gets clicked
+- plays a sound after a button gets clicked Code Retrieved From: [https://stackoverflow.com/questions/70223921/how-can-i-make-a-sound-when-a-button-is-pressed]
 
 ## Algorithms/Data Structures
 #### General
 - finds the number of occurences of a certain letter in a string
 - uses several common sorting algorithms to sort an array of random numbers and compares the time it takes for each of them. Make sure to label them.
-- reverses a random linked list
+- reverses a random linked list Code Retrieved From [https://www.geeksforgeeks.org/python-program-for-reverse-a-linked-list/]
 - implements a simple string hashing algorithm and uses it on an arbitrary string
 - hashes a provided photo (filetype png)
 - Generates a random maze represented by a 2d list using ones and zeroes. Find the shortest path from the top left corner of the maze to the bottom right corner using the A* search algorithm, then display your path. [https://en.wikipedia.org/wiki/A*_search_algorithm]

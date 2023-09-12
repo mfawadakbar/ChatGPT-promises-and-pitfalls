@@ -19,7 +19,7 @@ x- displays a timer
 x- plays a sound after a button gets clicked
 x- finds the number of occurences of a certain letter in a string
 - uses several common sorting algorithms to sort an array of random numbers and compares the time it takes for each of them. Make sure to label them.
-- reverses a random linked list
+x- reverses a random linked list
 - implements a simple string hashing algorithm and uses it on an arbitrary string
 - hashes a provided photo (filetype png)
 - sorts a random array of numbers as fast as possible and tell me which sorting algorithm you used
