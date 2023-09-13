@@ -27,8 +27,8 @@ x- uses recursion to find the Nth fibonacci number.
 x- uses recursion to find the occurences of a letter in a string
 x- Recursively deletes every node in an arbitrarily long linked list
 x- Implements a linked list data structure in python
-- creates an arbitrarily long linked list of random numbers.
-- creates and randomly populates an arbitrarily large binary search tree
+x- creates an arbitrarily long linked list of random numbers.
+x- creates and randomly populates an arbitrarily large binary search tree
 - Creates a representation of a matrix using lists, and that provides basic functionality such as adding a row to the matrix or deleting a row from it
 x- Implements a binary search tree in a class
 - determines the sentiment of a comment on imdb
