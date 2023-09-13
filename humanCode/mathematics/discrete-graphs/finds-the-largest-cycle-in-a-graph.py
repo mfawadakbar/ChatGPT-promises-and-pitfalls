@@ -1,5 +1,4 @@
 import networkx
-import matplotlib
 
 # generate a random graph
 g = networkx.fast_gnp_random_graph(10, .5)
@@ -12,8 +11,6 @@ for cycle in cycles:
         the_cycle = cycle
         length = len(cycle)
 
-networkx.draw_networkx(g)
-
 # the_cycle represents the longest cycle in the graph now.
+# Print the length of the cycle as proof
 print(len(the_cycle))
-matplotlib.pyplot.show()
