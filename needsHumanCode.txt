@@ -51,9 +51,9 @@ x- graphs an array of tuples (x, y) on a cartesian coordinate plane
 - displays a box and whiskers plot for an array of integers
 - when given a csv file with an id column and a timestamp column, plots the id's on a line in order of occurance
 - when given a list of strings, determines the statistically significant strings based on occurance
-- calculates and prints the value according to the given formula: Q = Square root of [(2 _ C _ D)/H] Following are the fixed values of C and H: C is 50. H is 30. D is the variable whose values should be input to your program in a comma-separated sequence.
-- Deterimes if a small, randomly generated graph is hamiltonian
-- Finds the number of islands in a graph
+x- calculates and prints the value according to the given formula: Q = Square root of [(2 _ C _ D)/H] Following are the fixed values of C and H: C is 50. H is 30. D is the variable whose values should be input to your program in a comma-separated sequence.
+x- Deterimes if a small, randomly generated graph is hamiltonian
+x- Finds the number of islands in a graph
 x- Finds the largest cycle in a graph
 x- is is calculator that calculates the derivative of an equation
 x- is is calculator that calculates the integral of an equation
