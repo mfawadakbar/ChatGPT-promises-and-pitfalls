@@ -27,6 +27,9 @@ by asking the user in the script.
 
 ## Rerun
 
+1. Look at the ones with '-' at the beginning of the line and not a '='
+2. Look for a url in brackets: like [https://www.projectpro.io/article/image-processing-projects-ideas/460]
+3. Make sure that there isn't a "Code Retrieved From:" before the brackets.
 
 # Beginning of Promps
 New prompts are marked off with a "- " at the beginning of the line and continues until a "[http", "- ", or "#" has been reached
@@ -34,7 +37,7 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 ## Visual/Graphical/Drawing
 
 #### Image processing 
-- accepts a png and makes all of the white in the picture transparent Code Retrieved From: [https://stackoverflow.com/questions/765736/how-to-use-pil-to-make-all-white-pixels-transparent]
+=- accepts a png and makes all of the white in the picture transparent Code Retrieved From: [https://stackoverflow.com/questions/765736/how-to-use-pil-to-make-all-white-pixels-transparent]
 - accepts a png, jpeg, or gif, and flips it vertically or horizontally based on user input
 =- accepts a png and grayscales it [https://www.projectpro.io/article/image-processing-projects-ideas/460] Code Retrieved From: [https://www.geeksforgeeks.org/python-grayscaling-of-images-using-opencv/]
 =- Accepts a png and inverts it [https://edabit.com/challenge/i6hY9JSjQK4jcaB6i] Code Retrieved From: [https://note.nkmk.me/en/python-pillow-invert/]
@@ -165,8 +168,8 @@ Library: [https://pypi.org/project/datasets/]
 - Creates a python script that takes a csv file with the headers [headers here] and displays a histogram
 - graphs an array of tuples (x, y) on a cartesian coordinate plane
 - displays a discrete graph (needs a representation and possibly more constraints)
-- displays a box and whiskers plot for an array of integers
-- when given a csv file with an id column and a timestamp column, plots the id's on a line in order of occurance
+=- displays a box and whiskers plot for an array of integers Code Retrieved From: [https://www.geeksforgeeks.org/box-plot-in-python-using-matplotlib/]
+=- when given a csv file with an id column and a timestamp column, plots the id's on a line in order of occurance Code Retrieved From: [https://dadoverflow.com/2021/08/17/making-timelines-with-python/]
 - when given a list of strings, determines the statistically significant strings based on occurance
 
 

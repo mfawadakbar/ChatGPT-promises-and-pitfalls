@@ -47,10 +47,10 @@ x- takes a file, and a line number and prints the line number
 - determines how far each number in a list of numbers is from the standard deviation and returns a list of the distances
 - Creates a python script that takes a csv file with the headers [headers here] and displays a histogram
 x- graphs an array of tuples (x, y) on a cartesian coordinate plane
-- displays a discrete graph (needs a representation and possibly more constraints)
-- displays a box and whiskers plot for an array of integers
-- when given a csv file with an id column and a timestamp column, plots the id's on a line in order of occurance
-- when given a list of strings, determines the statistically significant strings based on occurance
+x- displays a discrete graph (needs a representation and possibly more constraints)
+x- displays a box and whiskers plot for an array of integers
+x- when given a csv file with an id column and a timestamp column, plots the id's on a line in order of occurance
+x- when given a list of strings, determines the statistically significant strings based on occurance
 x- calculates and prints the value according to the given formula: Q = Square root of [(2 _ C _ D)/H] Following are the fixed values of C and H: C is 50. H is 30. D is the variable whose values should be input to your program in a comma-separated sequence.
 x- Deterimes if a small, randomly generated graph is hamiltonian
 x- Finds the number of islands in a graph
