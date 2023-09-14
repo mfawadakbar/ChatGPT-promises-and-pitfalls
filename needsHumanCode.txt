@@ -31,21 +31,21 @@ x- creates an arbitrarily long linked list of random numbers.
 x- creates and randomly populates an arbitrarily large binary search tree
 x- Creates a representation of a matrix using lists, and that provides basic functionality such as adding a row to the matrix or deleting a row from it
 x- Implements a binary search tree in a class
-- determines the sentiment of a comment on imdb
-- takes one of the datasets and vectorizes the text
-- creates a plot to get a general Statistics of Iris data. 
-- creates a Pie plot to get the frequency of the three species of the Iris data. 
-- views basic statistical details like percentile, mean, std etc. of iris data.
-- creates a graph to see how the length and width of SepalLength, SepalWidth, PetalLength, PetalWidth are distributed. 
+x- determines the sentiment of a comment on imdb
+x- takes one of the datasets and vectorizes the text
+x- creates a plot to get a general Statistics of Iris data. 
+x- creates a Pie plot to get the frequency of the three species of the Iris data. 
+x- views basic statistical details like percentile, mean, std etc. of iris data.
+x- creates a graph to see how the length and width of SepalLength, SepalWidth, PetalLength, PetalWidth are distributed. 
 ?x- generates some amount of random numbers and stores them in a file
 x- interfaces with a mysql database library and puts provided first names and last names into a table on the database
-- compresses and decompresses a text file
+x- compresses and decompresses a text file
 x- converts a csv file to a json file
 x- takes a json file and reads it into the program as a json object
 x- takes a file, and a line number and prints the line number
-- Finds the outliers in a data set
-- determines how far each number in a list of numbers is from the standard deviation and returns a list of the distances
-- Creates a python script that takes a csv file with the headers [headers here] and displays a histogram
+x- Finds the outliers in a data set
+x- determines how far each number in a list of numbers is from the standard deviation and returns a list of the distances
+x- Creates a python script that takes a csv file with the headers [headers here] and displays a histogram
 x- graphs an array of tuples (x, y) on a cartesian coordinate plane
 x- displays a discrete graph (needs a representation and possibly more constraints)
 x- displays a box and whiskers plot for an array of integers
