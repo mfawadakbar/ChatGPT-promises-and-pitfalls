@@ -81,7 +81,7 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 - finds the number of occurences of a certain letter in a string
 - uses several common sorting algorithms to sort an array of random numbers and compares the time it takes for each of them. Make sure to label them. Code Retrieved From [https://realpython.com/sorting-algorithms-python/]
 - reverses a random linked list Code Retrieved From [https://www.geeksforgeeks.org/python-program-for-reverse-a-linked-list/]
-- implements a simple string hashing algorithm and uses it on an arbitrary string [https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/]
+- implements a simple string hashing algorithm and uses it on an arbitrary string Code Retrieved From [https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/]
 - hashes a provided photo (filetype png) Code Retrieved From [https://stackoverflow.com/questions/64994057/python-image-hashing] 
 - Generates a random maze represented by a 2d list using ones and zeroes. Find the shortest path from the top left corner of the maze to the bottom right corner using the A* search algorithm, then display your path. [https://en.wikipedia.org/wiki/A*_search_algorithm]
 - determines if a word is an isogram [https://edabit.com/challenge/vTGXrd5ntYRk3t6Ma]
@@ -117,11 +117,11 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 - Recursively sorts a stack of integers that you randomly generated [https://www.techiedelight.com/recursive-solution-sort-stack/]
 
 #### Implementation
-- Implements a linked list data structure in python Code Retreived From [https://www.geeksforgeeks.org/python-linked-list/]
+- Implements a linked list data structure in python Code Retrieved From [https://www.geeksforgeeks.org/python-linked-list/]
 - creates an arbitrarily long linked list of random numbers.
 - creates and randomly populates an arbitrarily large binary search tree
 - Creates a representation of a matrix using lists, and that provides basic functionality such as adding a row to the matrix or deleting a row from it
-- Implements a binary search tree in a class Code Retreived From [https://blog.boot.dev/computer-science/binary-search-tree-in-python/]
+- Implements a binary search tree in a class Code Retrieved From [https://blog.boot.dev/computer-science/binary-search-tree-in-python/]
 
 Library: [https://pypi.org/project/datasets/]
 [https://fcpython.com/data-analysis-crash-course]
