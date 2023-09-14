@@ -1,3 +1,4 @@
+=====> Melanie
 - uses at least one “for” loop and one “while” loop to create an abstract design of your own choice. Use the command randcol to make it colourful [https://www.turtle.ox.ac.uk/downloads/docs/Turtle_Python_Exercises_1-12.pdf]
 - creates a user interface for a calculator. It does not need to have any functionality implemented [https://realpython.com/tutorials/gui/]
 - creates a tic tac toe game with a simple UI [https://realpython.com/tutorials/gui/]
@@ -10,6 +11,9 @@
 - accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%202.md]
 - swaps the first and last elements in a list [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
 - swaps an arbitrary two elements in a list [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
+
+
+======> Khan
 - showcases the many ways to find the length of a list [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
 - finds the maximum of two numbers without using the max function [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
 - Finds the minimum of two numbers without using the min function [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
