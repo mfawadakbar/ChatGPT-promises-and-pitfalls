@@ -32,11 +32,19 @@ x- creates and randomly populates an arbitrarily large binary search tree
 x- Creates a representation of a matrix using lists, and that provides basic functionality such as adding a row to the matrix or deleting a row from it
 x- Implements a binary search tree in a class
 x- determines the sentiment of a comment on imdb
+<<<<<<< HEAD
 x- takes one of the datasets and vectorizes the text
 x- creates a plot to get a general Statistics of Iris data. 
 x- creates a Pie plot to get the frequency of the three species of the Iris data. 
 x- views basic statistical details like percentile, mean, std etc. of iris data.
 x- creates a graph to see how the length and width of SepalLength, SepalWidth, PetalLength, PetalWidth are distributed. 
+=======
+- takes one of the datasets and vectorizes the text
+- creates a plot to get a general Statistics of Iris data. 
+- creates a Pie plot to get the frequency of the three species of the Iris data. 
+- views basic statistical details like percentile, mean, std etc. of iris data.
+- creates a graph to see how the length and width of SepalLength, SepalWidth, PetalLength, PetalWidth are distributed. 
+>>>>>>> 5109582371c433712a24d6a7c3bad6108260652f
 ?x- generates some amount of random numbers and stores them in a file
 x- interfaces with a mysql database library and puts provided first names and last names into a table on the database
 x- compresses and decompresses a text file
