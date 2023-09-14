@@ -1,7 +1,15 @@
 # This program will create a random populated text box
-
+# run pip3 install requests
+import random
 import tkinter as tk
 from tkinter import ttk
+import requests
+
+word_site = "https://www.mit.edu/~ecprice/wordlist.10000"
+
+response = requests.get(word_site)
+words = response.content
+WORDS = str(words, 'utf-8').splitlines()
 
 root = tk.Tk()
 root.title("Random Selectionbox")
@@ -18,4 +26,17 @@ ttk.Label(root, text = "Select the item :",
 box = tk.StringVar()
 item_chosen = ttk.Combobox(root, width = 30, textvariable=box)
 
-# Create a randomized number. The random number will then pick that amount of items from a random list.
+item_list = []
+
+n = random.randint(5, 10)
+
+for i in range(n):
+    item_list.append(WORDS[random.randrange(1000)])
+
+item_tuple = tuple(item_list)
+
+item_chosen['values'] = item_tuple
+
+item_chosen.grid(column=1, row=5)
+item_chosen.current()
+root.mainloop()
