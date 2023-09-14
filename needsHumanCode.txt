@@ -32,7 +32,7 @@ x- creates and randomly populates an arbitrarily large binary search tree
 x- Creates a representation of a matrix using lists, and that provides basic functionality such as adding a row to the matrix or deleting a row from it
 x- Implements a binary search tree in a class
 x- determines the sentiment of a comment on imdb
-- takes one of the datasets and vectorizes the text
+x- takes one of the datasets and vectorizes the text
 - creates a plot to get a general Statistics of Iris data. 
 - creates a Pie plot to get the frequency of the three species of the Iris data. 
 - views basic statistical details like percentile, mean, std etc. of iris data.
