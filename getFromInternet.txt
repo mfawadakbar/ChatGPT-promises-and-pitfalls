@@ -35,8 +35,8 @@ x- loads the iris data from a given csv file into a dataframe and print the shap
 x- finds the mean, median, mode, and range of a list of numbers without using a library to do it [https://www.geeksforgeeks.org/statistics-with-python/]
 x- finds the standard deviation of a list of numbers [https://www.geeksforgeeks.org/standard-deviation-plot/?ref=ml_lbp]
 x- when given a list of numbers determines how far each number is from the average and displays it [https://www.codewars.com/kata/568ff914fc7a40a18500005c]
-- Creates a python script that takes a csv file with the headers [headers here] and displays a histogram
-- when given the side length of a square and the radius of a circle determines which has a larger area [https://edabit.com/challenge/4me7LifXBwj5rhL4n]
+x- Creates a python script that takes a csv file with the headers [headers here] and displays a histogram
+x- when given the side length of a square and the radius of a circle determines which has a larger area [https://edabit.com/challenge/4me7LifXBwj5rhL4n]
 - implements a function that converts radians to degrees [https://edabit.com/challenge/2X2uZysLJ3CpsxLDD]
 - inverts a tuple representing an rgb value (for example, the rgb rgb(164, 194, 244) goes to rgb(91, 61, 11)) [https://edabit.com/challenge/i6hY9JSjQK4jcaB6i]
 - will find all such numbers which are divisible by 7 but are not a multiple of 5, between 2000 and 3200 (both included).The numbers obtained should be printed in a comma-separated sequence on a single line. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%201.md]
