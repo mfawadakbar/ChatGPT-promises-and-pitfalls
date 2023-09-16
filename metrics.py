@@ -37,6 +37,7 @@ for script in scripts:
         + '/'.join(fileParts[1:])
     )):
         continue
+
     codeFile = open(
         '/home/madram/School/Research/GPT-Competency/humanCode/'
         + '/'.join(fileParts[1:]), 'r'
