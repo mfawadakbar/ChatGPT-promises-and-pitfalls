@@ -77,8 +77,15 @@ generates-random-pixel-art-images-of-any-size.py,visual-graphical-drawing,image-
 implements-conway-s-game-of-life.py,visual-graphical-drawing,image-generation,more,23,49,8,35,13,
 generates-a-collage-from-pictures-on-the-internet-after-bein.py,visual-graphical-drawing,image-generation,less,5,46,2,5,4,"Old library, seems as though it no longer works: Here is the version that I used: https://github.com/Joeclinton1/google-images-download"
 creates-a-program-that-causes-the-python-turtle-to-travel-wh.py,visual-graphical-drawing,image-generation,more,2,7,1,2,3,
+when-given-integral-number-n-write-a-program-to-generate-a.py,mathematics,general,more,2,5,2,3,0,
 when-given-the-side-length-of-a-square-and-the-radius-of-a-c.py,mathematics,general,more,3,15,4,10,0,
+implements-a-function-that-converts-radians-to-degrees.py,mathematics,general,more,1,3,0,0,0,
+will-find-all-such-numbers-which-are-divisible-by-7-but-are.py,mathematics,general,more,4,5,4,8,0,
+uses-list-comprehension-to-square-each-odd-number-in-a-list.py,mathematics,general,more,3,2,2,3,0,
+inverts-a-tuple-representing-an-rgb-value-for-example-the.py,mathematics,general,more,2,2,1,2,0,
+defines-a-class-with-a-generator-which-can-iterate-the-numb.py,mathematics,general,more,4,6,3,5,0,
 calculates-and-prints-the-value-according-to-the-given-form.py,mathematics,general,more,3,8,3,12,0,
+accepts-a-sequence-of-comma-separated-4-digit-binary-number.py,mathematics,general,more,4,7,2,3,0,
 is-a-calculator-that-takes-an-equation-and-solves-for-x.py,mathematics,algebra,more,1,5,0,0,0,"When representing the two sides of the equation use Eq(), e.g.: Eq(x*2, 4)"
 is-a-calculator-to-multiply-any-number-of-matrices.py,mathematics,linear-algebra,more,6,23,3,5,0,
 is-a-calculator-that-exchanges-matrix-rows.py,mathematics,linear-algebra,more,4,14,3,12,0,
@@ -91,10 +98,13 @@ is-a-calculator-that-completes-a-triangle-given-enough-infor.py,mathematics,trig
 finds-the-number-of-islands-in-a-graph.py,mathematics,discrete-graphs,more,1,4,0,0,1,
 deterimes-if-a-small-randomly-generated-graph-is-hamiltonia.py,mathematics,discrete-graphs,less,2,8,0,0,0,"Interesting, it used the library incorrectly. It's important to note that this is an np-complete problem, which is why the library has no implementation for it."
 finds-the-largest-cycle-in-a-graph.py,mathematics,discrete-graphs,more,3,10,1,2,3,
+generates-a-random-weighted-graph-and-use-dijkstra-s-algorit.py,mathematics,discrete-graphs,more,3,11,0,0,1,"It's correct, but it gives the largest int size as the distance when it cannot reach a certain node."
 is-is-calculator-that-will-return-the-equation-for-a-tangent.py,mathematics,calculus-calculators,less,1,10,2,4,0,It seems as though it is trying to differentiate a scalar. Perhaps someone more knowledgeable in sympy could understand what is going on.
 is-is-calculator-that-calculates-the-integral-of-an-equation.py,mathematics,calculus-calculators,more,1,8,0,0,0,
 is-is-calculator-that-calculates-the-derivative-of-an-equati.py,mathematics,calculus-calculators,more,1,8,0,0,0,
 is-a-class-that-represents-a-deck-of-cards-with-implemented.py,object-oriented,general,more,4,18,0,0,0,
+defines-a-class-which-has-at-least-two-methods-1-getstrin.py,object-oriented,general,more,4,10,0,0,0,
+is-a-flashcard-class-usable-in-other-scripts.py,object-oriented,general,more,6,18,1,6,4,
 is-a-stack-object-which-can-be-imported-and-used-in-other-py.py,object-oriented,general,more,4,8,1,2,0,
 is-a-class-that-might-represent-a-student-but-ensure-that-t.py,object-oriented,inheritance-polymorphism-encapsulization,more,7,16,0,0,0,
 is-a-set-of-classes-modeling-a-bank-account-with-withdraw-an.py,object-oriented,inheritance-polymorphism-encapsulization,more,7,18,3,6,0,
