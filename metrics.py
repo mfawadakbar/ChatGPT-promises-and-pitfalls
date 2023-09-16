@@ -15,7 +15,7 @@ header = [
     'Halstead Distinct Operators',
     'Halstead Distinct Operands',
     'Comments',
-    'Notes'
+#    'Notes'
 ]
 writer = csv.DictWriter(csvfile, fieldnames=header)
 writer.writeheader()
@@ -30,7 +30,7 @@ for script in scripts:
     row['Category'] = fileParts[1]
     row['Subcategory'] = fileParts[2]
     row['More Accurate/Less Accurate'] = 'more' if (parts[2] == 'check') else 'less'
-    row['Notes'] = ' '.join(parts[4:])
+#    row['Notes'] = ' '.join(parts[4:])
 
     if (not os.path.exists(
         '/home/madram/School/Research/GPT-Competency/humanCode/'
