@@ -15,7 +15,7 @@ x- creates a user interface that places a circle of random size and color in the
 x- creates a UI that is a basic desktop program with a title bar and options at the top that would be easy to change and extend
 x- allows you to draw a line between two points that are clicked on the screen
 x- displays a timer
-?x- shows a single select box with some randomly generated options. It does nothing other than allows you to select the options in the box
+x- shows a single select box with some randomly generated options. It does nothing other than allows you to select the options in the box
 x- plays a sound after a button gets clicked
 x- finds the number of occurences of a certain letter in a string
 x- uses several common sorting algorithms to sort an array of random numbers and compares the time it takes for each of them. Make sure to label them.
@@ -37,7 +37,7 @@ x- creates a plot to get a general Statistics of Iris data.
 x- creates a Pie plot to get the frequency of the three species of the Iris data. 
 x- views basic statistical details like percentile, mean, std etc. of iris data.
 x- creates a graph to see how the length and width of SepalLength, SepalWidth, PetalLength, PetalWidth are distributed
-?x- generates some amount of random numbers and stores them in a file
+x- generates some amount of random numbers and stores them in a file
 x- interfaces with a mysql database library and puts provided first names and last names into a table on the database
 x- compresses and decompresses a text file
 x- converts a csv file to a json file
