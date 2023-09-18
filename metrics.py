@@ -2,8 +2,9 @@ from radon.visitors import ComplexityVisitor
 from radon.visitors import HalsteadVisitor
 from radon.raw import analyze
 import csv
+import os
 
-csvfile = open('3.5metrics.csv', 'w')
+csvfile = open('humanCodeMetrics.csv', 'w')
 header = [
     'File',
     'Category',
@@ -14,7 +15,7 @@ header = [
     'Halstead Distinct Operators',
     'Halstead Distinct Operands',
     'Comments',
-    'Notes'
+#    'Notes'
 ]
 writer = csv.DictWriter(csvfile, fieldnames=header)
 writer.writeheader()
@@ -29,10 +30,16 @@ for script in scripts:
     row['Category'] = fileParts[1]
     row['Subcategory'] = fileParts[2]
     row['More Accurate/Less Accurate'] = 'more' if (parts[2] == 'check') else 'less'
-    row['Notes'] = ' '.join(parts[4:])
+#    row['Notes'] = ' '.join(parts[4:])
+
+    if (not os.path.exists(
+        '/home/madram/School/Research/GPT-Competency/humanCode/'
+        + '/'.join(fileParts[1:])
+    )):
+        continue
 
     codeFile = open(
-        '/home/madram/School/Research/GPT-Competency/3.5turbo/'
+        '/home/madram/School/Research/GPT-Competency/humanCode/'
         + '/'.join(fileParts[1:]), 'r'
     )
     code = codeFile.read()
