@@ -1,19 +1,20 @@
-=====> Melanie
-- uses at least one “for” loop and one “while” loop to create an abstract design of your own choice. Use the command randcol to make it colourful [https://www.turtle.ox.ac.uk/downloads/docs/Turtle_Python_Exercises_1-12.pdf]
-- creates a user interface for a calculator. It does not need to have any functionality implemented [https://realpython.com/tutorials/gui/]
-- creates a tic tac toe game with a simple UI [https://realpython.com/tutorials/gui/]
-- implements a simple string hashing algorithm and uses it on an arbitrary string [https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/]
-- Generates a random maze represented by a 2d list using ones and zeroes. Find the shortest path from the top left corner of the maze to the bottom right corner using the A* search algorithm, then display your path. [https://en.wikipedia.org/wiki/A*_search_algorithm]
-- determines if a word is an isogram [https://edabit.com/challenge/vTGXrd5ntYRk3t6Ma]
-- when given an arbitrary string, apply an N shift caesar cypher to it [https://realpython.com/python-practice-problems/]
-- is a python version of the unix tool wc [https://codingchallenges.substack.com/p/coding-challenge-1]
-- is a python version of the unix tool uniq [https://codingchallenges.substack.com/p/coding-challenge-10-uniq]
+#- uses at least one “for” loop and one “while” loop to create an abstract design of your own choice. Use the command randcol to make it colourful [https://www.turtle.ox.ac.uk/downloads/docs/Turtle_Python_Exercises_1-12.pdf]
+#- creates a user interface for a calculator. It does not need to have any functionality implemented [https://realpython.com/tutorials/gui/]
+#- creates a tic tac toe game with a simple UI [https://realpython.com/tutorials/gui/]
+#- is a calculator that gets the area and volume of a cube, sphere, or cone
+#- interfaces with a mysql database library and puts provided first names and last names into a table on the database
+#- converts a csv file to a json file
+#- finds the number of occurences of a certain letter in a string
+#- uses recursion to find the Nth fibonacci number.
+#- Generates a random maze represented by a 2d list using ones and zeroes. Find the shortest path from the top left corner of the maze to the bottom right corner using the A* search algorithm, then display your path. [https://en.wikipedia.org/wiki/A*_search_algorithm]
+#- when given an arbitrary string, apply an N shift caesar cypher to it [https://realpython.com/python-practice-problems/]
+#- is a python version of the unix tool wc [https://codingchallenges.substack.com/p/coding-challenge-1]
+#- is a python version of the unix tool uniq [https://codingchallenges.substack.com/p/coding-challenge-10-uniq]
+x- implements a simple string hashing algorithm and uses it on an arbitrary string [https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/]
 x- accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%202.md]
 x- swaps the first and last elements in a list [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
 x- swaps an arbitrary two elements in a list [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
-
-
-======> Khan
+x- determines if a word is an isogram [https://edabit.com/challenge/vTGXrd5ntYRk3t6Ma]
 x- showcases the many ways to find the length of a list [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
 x- finds the maximum of two numbers without using the max function [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
 x- Finds the minimum of two numbers without using the min function [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
