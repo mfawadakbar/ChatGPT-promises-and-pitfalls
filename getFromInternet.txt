@@ -8,8 +8,8 @@
 #- uses recursion to find the Nth fibonacci number.
 #- Generates a random maze represented by a 2d list using ones and zeroes. Find the shortest path from the top left corner of the maze to the bottom right corner using the A* search algorithm, then display your path. [https://en.wikipedia.org/wiki/A*_search_algorithm]
 #- when given an arbitrary string, apply an N shift caesar cypher to it [https://realpython.com/python-practice-problems/]
-#- is a python version of the unix tool wc [https://codingchallenges.substack.com/p/coding-challenge-1]
-#- is a python version of the unix tool uniq [https://codingchallenges.substack.com/p/coding-challenge-10-uniq]
+x- is a python version of the unix tool wc [https://codingchallenges.substack.com/p/coding-challenge-1]
+x- is a python version of the unix tool uniq [https://codingchallenges.substack.com/p/coding-challenge-10-uniq]
 x- implements a simple string hashing algorithm and uses it on an arbitrary string [https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/]
 x- accepts a comma separated sequence of words as input and prints the words in a comma-separated sequence after sorting them alphabetically. [https://github.com/darkprinx/break-the-ice-with-python/blob/master/Status/Day%202.md]
 x- swaps the first and last elements in a list [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/]
