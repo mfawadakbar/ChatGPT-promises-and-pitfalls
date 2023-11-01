@@ -1,8 +1,9 @@
 # GPT Competency Experiments
 
-
 ## Running Instructions
-In order to run any of the top level directories on a 
+In order to run any of the top level python scripts (not the jupyter notebook) on a linux-based system, run
+`source venv/bin/active` and your python environment should be set up to run the scripts.  
+Also note that there should be a `.env` file with the key `OPEN_AI_KEY=your_key_here` to be able to run the `generate.py` script.
 
 ## Directories
 
@@ -18,4 +19,5 @@ In order to run any of the top level directories on a
 as well as the sources of the ideas if they were retrieved online, 
 and the sources of code in the `humanCode` directory if it was retrieved online.
 - **metrics.py** used to generate either the `humanCode` directory, or the `3.5turbo` directories for the complexity and other measures we used in our study.
-- **prediction_model.ipynb** the code for the model used to predict if a piece of code was written by chatGPT or by a human.
+- **prediction_model.ipynb** the code for the model used to predict if a piece of 
+code was written by chatGPT or by a human. It also has code to generate the analysis figures, and run the model reliability tests.
