@@ -2,7 +2,6 @@ import os
 from dotenv import load_dotenv
 import openai
 from slugify import slugify
-import sys
 
 load_dotenv()
 
@@ -17,13 +16,13 @@ subfolder = ''
 responses = 0
 
 for line in f:
-    if(line.startswith("## ")):
+    if (line.startswith("## ")):
         folder = line[3:line.find("[http")]
 
-    if(line.startswith("#### ")):
+    if (line.startswith("#### ")):
         subfolder = line[5:line.find("[http")]
 
-    if(line.startswith("-x ")):
+    if (line.startswith("- ")):
         prompt = line[2:line.find("[http")]
         chat_log = [{
             'role': 'system',
@@ -46,7 +45,7 @@ for line in f:
         print(path)
         if not os.path.exists('rerun/' + folder + '/' + subfolder):
             os.makedirs('rerun/' + path, exist_ok=True)
-        
+
         new_f = open('rerun/' + path + '/' + slugify(prompt[:60]) + ".py", "w")
         new_f.write(answer)
         responses += 1

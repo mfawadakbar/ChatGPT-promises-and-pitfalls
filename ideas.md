@@ -37,52 +37,52 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 ## Visual/Graphical/Drawing
 
 #### Image processing 
-=- accepts a png and makes all of the white in the picture transparent Code Retrieved From: [https://stackoverflow.com/questions/765736/how-to-use-pil-to-make-all-white-pixels-transparent]
-=- accepts a png, jpeg, or gif, and flips it vertically or horizontally based on user input
-=- accepts a png and grayscales it [https://www.projectpro.io/article/image-processing-projects-ideas/460] Code Retrieved From: [https://www.geeksforgeeks.org/python-grayscaling-of-images-using-opencv/]
-=- Accepts a png and inverts it [https://edabit.com/challenge/i6hY9JSjQK4jcaB6i] Code Retrieved From: [https://note.nkmk.me/en/python-pillow-invert/]
-=- Accepts a png and deep fries it
-=- Accepts a .stl file and displays its contents
+- accepts a png and makes all of the white in the picture transparent Code Retrieved From: [https://stackoverflow.com/questions/765736/how-to-use-pil-to-make-all-white-pixels-transparent]
+- accepts a png, jpeg, or gif, and flips it vertically or horizontally based on user input
+- accepts a png and grayscales it [https://www.projectpro.io/article/image-processing-projects-ideas/460] Code Retrieved From: [https://www.geeksforgeeks.org/python-grayscaling-of-images-using-opencv/]
+- Accepts a png and inverts it [https://edabit.com/challenge/i6hY9JSjQK4jcaB6i] Code Retrieved From: [https://note.nkmk.me/en/python-pillow-invert/]
+- Accepts a png and deep fries it
+- Accepts a .stl file and displays its contents
 
 #### Drawing Common Objects
-=- uses the python turtle module to draw a 2D 8x8 chessboard of alternating black and white squares Code Retrieved From: [https://www.geeksforgeeks.org/draw-chess-board-using-turtle-in-python/]
-=- Uses the python turtle module to draw the letters "GPT" using only lines
-=- Uses the python turtle module draw a smiley face
-=- Uses the python turtle module to draw a simple panda [https://www.geeksforgeeks.org/draw-panda-using-turtle-graphics-in-python/] Retrieved Code From: [https://www.geeksforgeeks.org/draw-panda-using-turtle-graphics-in-python/]
-=- Prints a half diamond star pattern using text with a maximum of N stars at the peak [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/] Retrieved Code From: [https://www.geeksforgeeks.org/program-to-print-half-diamond-star-pattern/]
-=- Prints pascals triangle to N rows [https://www.geeksforgeeks.org/tag/python-pattern-printing/] Code Retrieved From: [https://www.geeksforgeeks.org/python-program-to-print-pascals-triangle/]
+- uses the python turtle module to draw a 2D 8x8 chessboard of alternating black and white squares Code Retrieved From: [https://www.geeksforgeeks.org/draw-chess-board-using-turtle-in-python/]
+- Uses the python turtle module to draw the letters "GPT" using only lines
+- Uses the python turtle module draw a smiley face
+- Uses the python turtle module to draw a simple panda [https://www.geeksforgeeks.org/draw-panda-using-turtle-graphics-in-python/] Retrieved Code From: [https://www.geeksforgeeks.org/draw-panda-using-turtle-graphics-in-python/]
+- Prints a half diamond star pattern using text with a maximum of N stars at the peak [https://www.geeksforgeeks.org/python-exercises-practice-questions-and-solutions/] Retrieved Code From: [https://www.geeksforgeeks.org/program-to-print-half-diamond-star-pattern/]
+- Prints pascals triangle to N rows [https://www.geeksforgeeks.org/tag/python-pattern-printing/] Code Retrieved From: [https://www.geeksforgeeks.org/python-program-to-print-pascals-triangle/]
 - uses at least one “for” loop and one “while” loop to create an abstract design of your own choice. Use the command randcol to make it colourful [https://www.turtle.ox.ac.uk/downloads/docs/Turtle_Python_Exercises_1-12.pdf]
 
 #### Image Generation
-=- Implements conway's game of life Code Retrieved From: [https://www.geeksforgeeks.org/program-for-conways-game-of-life/]
-=- generates random pixel art images of any size [https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f/] Code Retrieved From: [https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f/]
-=- generates a collage from pictures on the internet after being given a word
-=- creates a program that causes the python turtle to travel wherever the mouse gets clicked on the screen and leave a trail
+- Implements conway's game of life Code Retrieved From: [https://www.geeksforgeeks.org/program-for-conways-game-of-life/]
+- generates random pixel art images of any size [https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f/] Code Retrieved From: [https://www.freecodecamp.org/news/how-to-create-generative-art-in-less-than-100-lines-of-code-d37f379859f/]
+- generates a collage from pictures on the internet after being given a word
+- creates a program that causes the python turtle to travel wherever the mouse gets clicked on the screen and leave a trail
 
 #### Fractals
-=- displays a Koch snowflake of n (user provided) iterations Code Retrieved From [https://www.geeksforgeeks.org/koch-curve-koch-snowflake/]
-=- displays a Fractal Triangle [https://fractalfoundation.org/resources/fractivities/] Code Retrieved From: [https://understanding-recursion.readthedocs.io/en/latest/14%20Sierpinski.html]
-=- displays a Tree Fractal [https://fractalfoundation.org/resources/fractivities/] Code Retrieved From: [https://www.geeksforgeeks.org/y-fractal-tree-in-python-using-turtle/]
-=- allows you to choose between several different types of fractals to display, and to choose the number of iterations to use in the generation step
+- displays a Koch snowflake of n (user provided) iterations Code Retrieved From: [https://www.geeksforgeeks.org/koch-curve-koch-snowflake/]
+- displays a Fractal Triangle [https://fractalfoundation.org/resources/fractivities/] Code Retrieved From: [https://understanding-recursion.readthedocs.io/en/latest/14%20Sierpinski.html]
+- displays a Tree Fractal [https://fractalfoundation.org/resources/fractivities/] Code Retrieved From: [https://www.geeksforgeeks.org/y-fractal-tree-in-python-using-turtle/]
+- allows you to choose between several different types of fractals to display, and to choose the number of iterations to use in the generation step
 
 #### GUI
-=- causes an empty window GUI to appear. The window disappears when clicked
+- causes an empty window GUI to appear. The window disappears when clicked
 - creates a user interface for a calculator. It does not need to have any functionality implemented [https://realpython.com/tutorials/gui/]
 - creates a user interface that places a circle of random size and color in the location that is clicked
 - creates a tic tac toe game with a simple UI [https://realpython.com/tutorials/gui/]
 - creates a UI that is a basic desktop program with a title bar and options at the top that would be easy to change and extend
-=- allows you to draw a line between two points that are clicked on the screen
-- displays a timer Code Retrieved From [Non-GUI: https://www.udacity.com/blog/2021/09/create-a-timer-in-python-step-by-step-guide.html or GUI: https://www.geeksforgeeks.org/create-countdown-timer-using-python-tkinter/]
+- allows you to draw a line between two points that are clicked on the screen
+- displays a timer Code Retrieved From: [Non-GUI: https://www.udacity.com/blog/2021/09/create-a-timer-in-python-step-by-step-guide.html or GUI: https://www.geeksforgeeks.org/create-countdown-timer-using-python-tkinter/]
 - shows a single select box with some randomly generated options. It does nothing other than allows you to select the options in the box
 - plays a sound after a button gets clicked Code Retrieved From: [https://stackoverflow.com/questions/70223921/how-can-i-make-a-sound-when-a-button-is-pressed]
 
 ## Algorithms/Data Structures
 #### General
 - finds the number of occurences of a certain letter in a string
-- uses several common sorting algorithms to sort an array of random numbers and compares the time it takes for each of them. Make sure to label them. Code Retrieved From [https://realpython.com/sorting-algorithms-python/]
-- reverses a random linked list Code Retrieved From [https://www.geeksforgeeks.org/python-program-for-reverse-a-linked-list/]
-- implements a simple string hashing algorithm and uses it on an arbitrary string Code Retrieved From [https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/]
-- hashes a provided photo (filetype png) Code Retrieved From [https://stackoverflow.com/questions/64994057/python-image-hashing] 
+- uses several common sorting algorithms to sort an array of random numbers and compares the time it takes for each of them. Make sure to label them. Code Retrieved From: [https://realpython.com/sorting-algorithms-python/]
+- reverses a random linked list Code Retrieved From: [https://www.geeksforgeeks.org/python-program-for-reverse-a-linked-list/]
+- implements a simple string hashing algorithm and uses it on an arbitrary string Code Retrieved From: [https://www.geeksforgeeks.org/string-hashing-using-polynomial-rolling-hash-function/]
+- hashes a provided photo (filetype png) Code Retrieved From: [https://stackoverflow.com/questions/64994057/python-image-hashing] 
 - Generates a random maze represented by a 2d list using ones and zeroes. Find the shortest path from the top left corner of the maze to the bottom right corner using the A* search algorithm, then display your path. [https://en.wikipedia.org/wiki/A*_search_algorithm]
 - determines if a word is an isogram [https://edabit.com/challenge/vTGXrd5ntYRk3t6Ma]
 - when given an arbitrary string, apply an N shift caesar cypher to it [https://realpython.com/python-practice-problems/]
@@ -117,11 +117,11 @@ New prompts are marked off with a "- " at the beginning of the line and continue
 - Recursively sorts a stack of integers that you randomly generated [https://www.techiedelight.com/recursive-solution-sort-stack/]
 
 #### Implementation
-- Implements a linked list data structure in python Code Retrieved From [https://www.geeksforgeeks.org/python-linked-list/]
+- Implements a linked list data structure in python Code Retrieved From: [https://www.geeksforgeeks.org/python-linked-list/]
 - creates an arbitrarily long linked list of random numbers.
 - creates and randomly populates an arbitrarily large binary search tree
 - Creates a representation of a matrix using lists, and that provides basic functionality such as adding a row to the matrix or deleting a row from it
-- Implements a binary search tree in a class Code Retrieved From [https://blog.boot.dev/computer-science/binary-search-tree-in-python/]
+- Implements a binary search tree in a class Code Retrieved From: [https://blog.boot.dev/computer-science/binary-search-tree-in-python/]
 
 Library: [https://pypi.org/project/datasets/]
 [https://fcpython.com/data-analysis-crash-course]
@@ -168,8 +168,8 @@ Library: [https://pypi.org/project/datasets/]
 - Creates a python script that takes a csv file with the headers [headers here] and displays a histogram
 - graphs an array of tuples (x, y) on a cartesian coordinate plane
 - displays a discrete graph (needs a representation and possibly more constraints)
-=- displays a box and whiskers plot for an array of integers Code Retrieved From: [https://www.geeksforgeeks.org/box-plot-in-python-using-matplotlib/]
-=- when given a csv file with an id column and a timestamp column, plots the id's on a line in order of occurance Code Retrieved From: [https://dadoverflow.com/2021/08/17/making-timelines-with-python/]
+- displays a box and whiskers plot for an array of integers Code Retrieved From: [https://www.geeksforgeeks.org/box-plot-in-python-using-matplotlib/]
+- when given a csv file with an id column and a timestamp column, plots the id's on a line in order of occurance Code Retrieved From: [https://dadoverflow.com/2021/08/17/making-timelines-with-python/]
 - when given a list of strings, determines the statistically significant strings based on occurance
 
 
